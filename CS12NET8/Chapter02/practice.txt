@@ -1,0 +1,54 @@
+Exercise 2.1 – Test your knowledge
+To get the best answer to some of these questions, you will need to do your own research.
+
+1. What statement can you type in a C# file to discover the compiler and language version?
+	#error version
+	
+2. What are the two types of comments in C#?
+	//One Line Comment
+	/*Multi Line
+	Comment*/
+
+3. What is the difference between a verbatim string and an interpolated string?
+	Verbatim string uses prefix @ to disable escape characters
+	Interpolated string uses prefix $ to enable embeded formatted variables.
+	
+4. Why should you be careful when using float and double values?
+	Float and double types are not guaranteed to be accurate as decimal.
+	As a rule of thumb, you should only use double when accuracy, especially when comparing the equality of two numbers, is not important.
+	
+5. How can you determine how many bytes a type like double uses in memory?
+	sizeof() returns the number of bytes that a type uses in memory.
+	
+6. When should you use the var keyword?
+	Only when the type of the variable is obvious.
+
+7. What is the newest syntax to create an instance of a class like XmlDocument?
+	It is known as target-typed new.  You can specify the type of the object first and then use new without repeating the type. 
+	Example: XmlDocument xml1 = new();
+
+8. Why should you be careful when using the dynamic type?
+	It can be difficult to debug code that uses dynamic types since the type is not known at compile time.
+	
+9. How do you right-align a format string?
+	You can use Console.WriteLine(format: "{0,-10} {1,6}", arg0: "Name", arg1: "Count");
+	Positive integers mean right-aligned and negative integers mean left-aligned.
+	
+10. What character separates arguments for a console app?
+	Command-line arguments are separated by spaces.
+	
+	
+Exercise 2.2 – Test your knowledge of number types
+What type would you choose for the following “numbers”?
+
+• A person’s telephone number: String
+• A person’s height: Float or Double
+• A person’s age: Int
+• A person’s salary: Decimal
+• A book’s ISBN: String 
+• A book’s price: Decimal
+• A book’s shipping weight: Float or double
+• A country’s population: Float or Double
+• The number of stars in the universe: ulong
+• The number of employees in each of the small or medium businesses in the UK (up to about
+50,000 employees per business): ushort
