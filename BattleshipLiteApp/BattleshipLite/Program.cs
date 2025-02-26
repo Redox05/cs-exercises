@@ -38,8 +38,8 @@ namespace BattleshipLite
 
         private static void IdentifyWinner(PlayerInfoModel winner)
         {
-            Console.WriteLine($"Congratulations to {winner.UsersName} for winning!");
-            Console.WriteLine($"{winner.UsersName} took {GameLogic.GetShotCount(winner)} shots.");
+            WriteLine($"Congratulations to {winner.UsersName} for winning!");
+            WriteLine($"{winner.UsersName} took {GameLogic.GetShotCount(winner)} shots.");
         }
 
         private static void RecordPlayerShot(PlayerInfoModel activePlayer, PlayerInfoModel opponent) 
@@ -64,7 +64,7 @@ namespace BattleshipLite
 
                 if (isValidShot == false)
                 {
-                    Console.WriteLine("Invalid Shot Location. Try again.");
+                    WriteLine("Invalid Shot Location. Try again.");
                 }
 
             } while (!isValidShot);
@@ -81,19 +81,19 @@ namespace BattleshipLite
         {
             if (isAHit)
             {
-                Console.WriteLine($"{row}{column} is a hit!");
+                WriteLine($"{row}{column} is a hit!");
             }
             else
             {
-                Console.WriteLine($"{row}{column} is a miss!");
+                WriteLine($"{row}{column} is a miss!");
             }
-            Console.WriteLine();
+            WriteLine();
         }
 
         private static string AskForShot(PlayerInfoModel player)
         {
-            Console.Write($"{player.UsersName} -> Enter your shot selection: ");
-            string output = Console.ReadLine();
+            Write($"{player.UsersName} -> Enter your shot selection: ");
+            string output = ReadLine();
             return output;
         }
 
@@ -105,46 +105,46 @@ namespace BattleshipLite
             {
                 if (gridSpot.SpotLetter != currentRow)
                 {
-                    Console.WriteLine();
+                    WriteLine();
                     currentRow = gridSpot.SpotLetter;
                 } 
 
                 if(gridSpot.Status == GridSpotStatus.Empty)
                 {
-                    Console.Write($" {gridSpot.SpotLetter}{gridSpot.SpotNumber} ");
+                    Write($" {gridSpot.SpotLetter}{gridSpot.SpotNumber} ");
                 }
                 else if (gridSpot.Status == GridSpotStatus.Hit)
                 {
                     string shoot = "S";
-                    Console.Write($"{shoot,-4}");
+                    Write($"{shoot,-4}");
                 }
                 else if (gridSpot.Status == GridSpotStatus.Miss)
                 {
                     string miss = "M";
-                    Console.Write($"{miss,-4}");
+                    Write($"{miss,-4}");
                 }
                 else
                 {
                     string question = "?";
-                    Console.Write($"{question}");
+                    Write($"{question}");
                 }
             }
-            Console.WriteLine();
-            Console.WriteLine();
+            WriteLine();
+            WriteLine();
         }
 
         private static void WelcomeMessage()
         {
-            Console.WriteLine("Welcome to Battleship Lite");
-            Console.WriteLine("Created by Ruben Ortega, following IAMTimCorey's Master Course");
-            Console.WriteLine("");
+            WriteLine("Welcome to Battleship Lite");
+            WriteLine("Created by Ruben Ortega, following IAMTimCorey's Master Course");
+            WriteLine("");
         }
 
         private static PlayerInfoModel CreatePlayer(string playerTitle)
         {
             PlayerInfoModel output = new PlayerInfoModel();
 
-            Console.WriteLine($"Player information for {playerTitle}");
+            WriteLine($"Player information for {playerTitle}");
 
             //Ask user for their name
             output.UsersName = AskForUsersName();
@@ -156,15 +156,15 @@ namespace BattleshipLite
             PlaceShips(output);
 
             //Clear 
-            Console.Clear();
+            Clear();
 
             return output;
 
         }
         private static string AskForUsersName()
         {
-            Console.Write("Your name: ");
-            string output = Console.ReadLine();
+            Write("Your name: ");
+            string output = ReadLine();
             return output;
         }
 
@@ -173,8 +173,8 @@ namespace BattleshipLite
             do
             {
 
-                Console.Write($"Where do you want to place your ship number {model.ShipLocations.Count + 1}: ");
-                string location = Console.ReadLine();
+                Write($"Where do you want to place your ship number {model.ShipLocations.Count + 1}: ");
+                string location = ReadLine();
 
                 bool isValidLocation = false;
 
@@ -185,12 +185,12 @@ namespace BattleshipLite
                 catch (Exception ex)
                 {
 
-                    Console.WriteLine("Error: " + ex.Message);
+                    WriteLine("Error: " + ex.Message);
                 }
 
                 if (isValidLocation == false)
                 {
-                    Console.WriteLine("Not a valid location. Try again");
+                    WriteLine("Not a valid location. Try again");
                 }
 
             } while (model.ShipLocations.Count < 5);
