@@ -115,15 +115,18 @@ namespace BattleshipLite
                 }
                 else if (gridSpot.Status == GridSpotStatus.Hit)
                 {
-                    Console.Write(" S  ");
+                    string shoot = "S";
+                    Console.Write($"{shoot,-4}");
                 }
                 else if (gridSpot.Status == GridSpotStatus.Miss)
                 {
-                    Console.Write(" M  ");
+                    string miss = "M";
+                    Console.Write($"{miss,-4}");
                 }
                 else
                 {
-                    Console.Write(" ?  ");
+                    string question = "?";
+                    Console.Write($"{question}");
                 }
             }
             Console.WriteLine();
