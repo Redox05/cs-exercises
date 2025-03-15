@@ -2,11 +2,18 @@
 {
     internal class Program
     {
+        private static Dictionary<string, int> guestBook = new Dictionary<string, int>();
         static void Main(string[] args)
         {
-            Dictionary<string, int> guestBook = new Dictionary<string, int>();
 
+            LoadGuests();            
 
+            PrintGuestTable(guestBook);
+
+        }
+
+        private static void LoadGuests()
+        {
             string firstName = "";
             int partyMembers = 0;
             string keyWord = "";
@@ -17,7 +24,7 @@
                 firstName = GetUserInfo("Your name: ");
                 partyMembers = StringToInt(GetUserInfo("# Party Members: "));
 
-                if (partyMembers>0)
+                if (partyMembers > 0)
                 {
                     guestBook.Add(firstName, partyMembers);
                 }
@@ -32,21 +39,16 @@
                 WriteLine();
 
             } while (keyWord.ToLower() == "yes");
-
-            WriteLine("{0,-12} {1,15}", arg0: "Guest", "# Party Members");
-
-            PrintGuestTable(guestBook);
-
-            WriteLine($"Total number of guests: {TotalGuests(guestBook)}");
-
         }
 
         private static void PrintGuestTable(Dictionary<string,int> book)
         {
+            WriteLine("{0,-12} {1,15}", arg0: "Guest", "# Party Members");
             foreach (var name in book)
             {
                 WriteLine($"{name.Key,-12} {book[name.Key],15}");
             }
+            WriteLine($"Total number of guests: {TotalGuests(book)}");
         }
         private static int TotalGuests(Dictionary<string,int> book)
         {
