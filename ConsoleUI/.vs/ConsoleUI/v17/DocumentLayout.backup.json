@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\ConsoleUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{136548B1-3997-4721-AAE6-8031867CC262}|MiniProject\\MiniProject.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\consoleui\\miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{136548B1-3997-4721-AAE6-8031867CC262}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{136548B1-3997-4721-AAE6-8031867CC262}|MiniProject\\MiniProject.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\consoleui\\miniproject\\miniproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{136548B1-3997-4721-AAE6-8031867CC262}|MiniProject\\MiniProject.csproj|solutionrelative:miniproject\\miniproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MiniProject",
+              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\ConsoleUI\\MiniProject\\MiniProject.csproj",
+              "RelativeDocumentMoniker": "MiniProject\\MiniProject.csproj",
+              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\ConsoleUI\\MiniProject\\MiniProject.csproj",
+              "RelativeToolTip": "MiniProject\\MiniProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-15T04:43:06.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\ConsoleUI\\MiniProject\\Program.cs",
+              "RelativeDocumentMoniker": "MiniProject\\Program.cs",
+              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\ConsoleUI\\MiniProject\\Program.cs",
+              "RelativeToolTip": "MiniProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T04:42:44.976Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

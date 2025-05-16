@@ -1,0 +1,17 @@
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-windows\CookBook.exe
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-windows\CookBook.deps.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-windows\CookBook.runtimeconfig.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-windows\CookBook.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-windows\CookBook.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.csproj.GenerateResource.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.AssemblyInfoInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.AssemblyInfo.cs
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.csproj.CoreCompileInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.sourcelink.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\refint\CookBook.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.genruntimeconfig.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\ref\CookBook.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows\CookBook.UI.IngredientsForm.resources

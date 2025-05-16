@@ -1,0 +1,15 @@
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\bin\Debug\net8.0\MiniProject.exe
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\bin\Debug\net8.0\MiniProject.deps.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\bin\Debug\net8.0\MiniProject.runtimeconfig.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\bin\Debug\net8.0\MiniProject.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\bin\Debug\net8.0\MiniProject.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\MiniProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\MiniProject.AssemblyInfoInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\MiniProject.AssemblyInfo.cs
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\MiniProject.csproj.CoreCompileInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\MiniProject.sourcelink.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\MiniProject.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\refint\MiniProject.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\MiniProject.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\MiniProject.genruntimeconfig.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\ConsoleUI\MiniProject\obj\Debug\net8.0\ref\MiniProject.dll

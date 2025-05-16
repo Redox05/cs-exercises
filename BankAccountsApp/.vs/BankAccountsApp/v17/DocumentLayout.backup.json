@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\bankaccountsapp\\bankaccountsapp\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|solutionrelative:bankaccountsapp\\savingsaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\bankaccountsapp\\bankaccountsapp\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|solutionrelative:bankaccountsapp\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\bankaccountsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|solutionrelative:bankaccountsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\bankaccountsapp\\bankaccountsapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|solutionrelative:bankaccountsapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\bankaccountsapp\\bankaccountsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9748A2BE-E5A5-4B52-8C88-5C0390A3E21C}|BankAccountsApp\\BankAccountsApp.csproj|solutionrelative:bankaccountsapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "BankAccountsApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\Form1.cs",
+              "RelativeToolTip": "BankAccountsApp\\Form1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:13:34.44Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SavingsAccount.cs",
+              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\SavingsAccount.cs",
+              "RelativeDocumentMoniker": "BankAccountsApp\\SavingsAccount.cs",
+              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\SavingsAccount.cs",
+              "RelativeToolTip": "BankAccountsApp\\SavingsAccount.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T01:48:05.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\BankAccount.cs",
+              "RelativeDocumentMoniker": "BankAccountsApp\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\BankAccount.cs",
+              "RelativeToolTip": "BankAccountsApp\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:02:36.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\Form1.cs",
+              "RelativeDocumentMoniker": "BankAccountsApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\Form1.cs [Design]",
+              "RelativeToolTip": "BankAccountsApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:47:42.221Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "BankAccountsApp\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\BankAccountsApp\\BankAccountsApp\\Form1.Designer.cs",
+              "RelativeToolTip": "BankAccountsApp\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T01:08:26.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
