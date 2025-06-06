@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "DataAccessLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DomainModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccessLayer.dll": {}
+        }
+      },
       "DomainModel/1.0.0": {
         "type": "project",
         "compile": {
@@ -14,6 +26,11 @@
     }
   },
   "libraries": {
+    "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DataAccessLayer/DataAccessLayer.csproj",
+      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
+    },
     "DomainModel/1.0.0": {
       "type": "project",
       "path": "../DomainModel/DomainModel.csproj",
@@ -22,6 +39,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "DataAccessLayer >= 1.0.0",
       "DomainModel >= 1.0.0"
     ]
   },
@@ -59,6 +77,9 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj"
+            },
             "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj": {
               "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj"
             }
@@ -75,7 +96,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -99,7 +120,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

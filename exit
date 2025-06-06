@@ -1,0 +1,65 @@
+[33mcommit 2f21ae779cd6ad6f514621c9292d03b9ffd04fb2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: RBN <iq.rubenop@gmail.com>
+Date:   Fri May 16 06:02:51 2025 -0600
+
+    Create cookbook project.
+
+[33mcommit 30013e29453e491c588e99d8c64ede67e851abe4[m
+Author: RBN <iq.rubenop@gmail.com>
+Date:   Fri Mar 14 23:56:38 2025 -0600
+
+    Make the code more readable.
+
+[33mcommit 62150ece597e332e3dbe53d5f0d15a02466c0329[m
+Author: RBN <iq.rubenop@gmail.com>
+Date:   Fri Mar 14 23:42:14 2025 -0600
+
+    Print table of guests and total of guests.
+
+[33mcommit 53f6c98bb8bc72dad7c4d27437b3cb5936d770fe[m
+Author: RBN <iq.rubenop@gmail.com>
+Date:   Fri Mar 14 22:45:18 2025 -0600
+
+    Create directory and ask for user's info
+
+[33mcommit af2402b6a441b84760308008c17d29b7b5445703[m
+Author: RBN <iq.rubenop@gmail.com>
+Date:   Tue Feb 25 19:55:09 2025 -0600
+
+    Import a static type for all code files in the project
+
+[33mcommit c12e416c05044b914d71739fe3f40afe84038265[m
+Author: RBN <iq.rubenop@gmail.com>
+Date:   Tue Feb 25 19:42:00 2025 -0600
+
+    modify result of shoot alignment
+
+[33mcommit fc9343031e51f055c29b7fae4b962889a1e4fc37[m
+Author: RBN <iq.rubenop@gmail.com>
+Date:   Sun Feb 23 20:37:16 2025 -0600
+
+    add BattleshipLiteApp
+
+[33mcommit b995afcd6fd1dea86f75a50db999985f6f1ed722[m
+Author: Rubén Ortega <iq.rubenop@gmail.com>
+Date:   Sun Feb 16 20:10:41 2025 -0600
+
+    Update Ch02Ex03Numbers.csproj
+
+[33mcommit bbc7ee9409c6c2b5fae576b0432adeda2227623d[m
+Author: Rubén Ortega <iq.rubenop@gmail.com>
+Date:   Sun Feb 16 20:09:16 2025 -0600
+
+    Update Program.cs
+
+[33mcommit 608fb8bdf7d846e7a8f62ffa5de504f78b62a0f4[m
+Author: RBN <iq.rubenop@gmail.com>
+Date:   Sun Feb 16 15:02:34 2025 -0600
+
+    add Ch02Ex03Numbers console app
+
+[33mcommit a6410162aaf4655bbe509ab5466f3625363e5699[m
+Author: RBN <iq.rubenop@gmail.com>
+Date:   Sat Feb 15 17:23:20 2025 -0600
+
+    add answers to the first two sections
