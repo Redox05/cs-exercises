@@ -1,0 +1,9 @@
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\bin\Debug\DomainModel.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\bin\Debug\DomainModel.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\DomainModel.csproj.AssemblyReference.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\DomainModel.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\DomainModel.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\bin\Debug\System.Data.SqlClient.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\bin\Debug\System.Data.SqlClient.xml
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\DomainMo.6BFF71DD.Up2Date
