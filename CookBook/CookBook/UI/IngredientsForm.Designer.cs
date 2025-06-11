@@ -39,15 +39,17 @@
             WeightNum = new NumericUpDown();
             KcalPer100gNum = new NumericUpDown();
             PricePer100gNum = new NumericUpDown();
+            IngredientsGrid = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)WeightNum).BeginInit();
             ((System.ComponentModel.ISupportInitialize)KcalPer100gNum).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PricePer100gNum).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)IngredientsGrid).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(15, 9);
+            label1.Location = new Point(950, 12);
             label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
             label1.Size = new Size(91, 38);
@@ -57,7 +59,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(15, 81);
+            label2.Location = new Point(950, 84);
             label2.Margin = new Padding(6, 0, 6, 0);
             label2.Name = "label2";
             label2.Size = new Size(75, 38);
@@ -67,7 +69,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(15, 157);
+            label3.Location = new Point(950, 160);
             label3.Margin = new Padding(6, 0, 6, 0);
             label3.Name = "label3";
             label3.Size = new Size(145, 38);
@@ -77,7 +79,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(15, 229);
+            label4.Location = new Point(950, 232);
             label4.Margin = new Padding(6, 0, 6, 0);
             label4.Name = "label4";
             label4.Size = new Size(152, 38);
@@ -87,7 +89,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(15, 306);
+            label5.Location = new Point(950, 309);
             label5.Margin = new Padding(6, 0, 6, 0);
             label5.Name = "label5";
             label5.Size = new Size(163, 38);
@@ -96,7 +98,7 @@
             // 
             // AddToFridgeBtn
             // 
-            AddToFridgeBtn.Location = new Point(249, 412);
+            AddToFridgeBtn.Location = new Point(1184, 415);
             AddToFridgeBtn.Name = "AddToFridgeBtn";
             AddToFridgeBtn.Size = new Size(251, 51);
             AddToFridgeBtn.TabIndex = 5;
@@ -106,14 +108,14 @@
             // 
             // NameTxt
             // 
-            NameTxt.Location = new Point(249, 9);
+            NameTxt.Location = new Point(1184, 12);
             NameTxt.Name = "NameTxt";
             NameTxt.Size = new Size(251, 43);
             NameTxt.TabIndex = 6;
             // 
             // TypeTxt
             // 
-            TypeTxt.Location = new Point(249, 81);
+            TypeTxt.Location = new Point(1184, 84);
             TypeTxt.Name = "TypeTxt";
             TypeTxt.Size = new Size(251, 43);
             TypeTxt.TabIndex = 7;
@@ -121,7 +123,7 @@
             // WeightNum
             // 
             WeightNum.DecimalPlaces = 2;
-            WeightNum.Location = new Point(249, 157);
+            WeightNum.Location = new Point(1184, 160);
             WeightNum.Maximum = new decimal(new int[] { 999999, 0, 0, 0 });
             WeightNum.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             WeightNum.Name = "WeightNum";
@@ -132,7 +134,7 @@
             // KcalPer100gNum
             // 
             KcalPer100gNum.DecimalPlaces = 2;
-            KcalPer100gNum.Location = new Point(249, 229);
+            KcalPer100gNum.Location = new Point(1184, 232);
             KcalPer100gNum.Maximum = new decimal(new int[] { 900, 0, 0, 0 });
             KcalPer100gNum.Name = "KcalPer100gNum";
             KcalPer100gNum.Size = new Size(251, 43);
@@ -141,17 +143,27 @@
             // PricePer100gNum
             // 
             PricePer100gNum.DecimalPlaces = 2;
-            PricePer100gNum.Location = new Point(249, 306);
+            PricePer100gNum.Location = new Point(1184, 309);
             PricePer100gNum.Maximum = new decimal(new int[] { 9999999, 0, 0, 0 });
             PricePer100gNum.Name = "PricePer100gNum";
             PricePer100gNum.Size = new Size(251, 43);
             PricePer100gNum.TabIndex = 10;
             // 
+            // IngredientsGrid
+            // 
+            IngredientsGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            IngredientsGrid.Location = new Point(12, 12);
+            IngredientsGrid.Name = "IngredientsGrid";
+            IngredientsGrid.RowHeadersWidth = 51;
+            IngredientsGrid.Size = new Size(929, 454);
+            IngredientsGrid.TabIndex = 11;
+            // 
             // IngredientsForm
             // 
             AutoScaleDimensions = new SizeF(15F, 37F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(512, 518);
+            ClientSize = new Size(1457, 518);
+            Controls.Add(IngredientsGrid);
             Controls.Add(PricePer100gNum);
             Controls.Add(KcalPer100gNum);
             Controls.Add(WeightNum);
@@ -167,9 +179,11 @@
             Margin = new Padding(6);
             Name = "IngredientsForm";
             Text = "My Fridge";
+            Load += IngredientsForm_Load;
             ((System.ComponentModel.ISupportInitialize)WeightNum).EndInit();
             ((System.ComponentModel.ISupportInitialize)KcalPer100gNum).EndInit();
             ((System.ComponentModel.ISupportInitialize)PricePer100gNum).EndInit();
+            ((System.ComponentModel.ISupportInitialize)IngredientsGrid).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -187,5 +201,6 @@
         private NumericUpDown WeightNum;
         private NumericUpDown KcalPer100gNum;
         private NumericUpDown PricePer100gNum;
+        private DataGridView IngredientsGrid;
     }
 }

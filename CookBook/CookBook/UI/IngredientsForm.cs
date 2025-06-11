@@ -32,6 +32,7 @@ namespace CookBook.UI
             IngredientsDataAccess db = new IngredientsDataAccess();
             db.AddIngredient(ingredient);
             ClearAllFields();
+            RefreshGridData();
 
         }
 
@@ -43,6 +44,19 @@ namespace CookBook.UI
             KcalPer100gNum.Value = default;
             PricePer100gNum.Value = default;
 
+        }
+
+        private void IngredientsForm_Load(object sender, EventArgs e)
+        {
+            RefreshGridData();
+
+        }
+
+        private void RefreshGridData()
+        {
+            IngredientsDataAccess db = new IngredientsDataAccess();
+            List<Ingredient> ingredients = db.GetIngredients();
+            IngredientsGrid.DataSource = ingredients;
         }
     }
 }
