@@ -31,6 +31,17 @@ namespace CookBook.UI
 
             IngredientsDataAccess db = new IngredientsDataAccess();
             db.AddIngredient(ingredient);
+            ClearAllFields();
+
+        }
+
+        private void ClearAllFields()
+        {
+            NameTxt.Text = default;
+            TypeTxt.Text = default;
+            WeightNum.Value = 1;
+            KcalPer100gNum.Value = default;
+            PricePer100gNum.Value = default;
 
         }
     }
