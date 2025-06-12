@@ -15,6 +15,8 @@ namespace DomainModel.Models
         public decimal KcalPer100g { get; set; }
         public decimal PricePer100g { get; set; }
 
+        public Ingredient(){}
+
         public Ingredient(string name, string type, decimal weight, decimal kcalPer100g, decimal procePer100g)
         {
             Name = name;
