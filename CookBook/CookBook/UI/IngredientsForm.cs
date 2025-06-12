@@ -21,13 +21,7 @@ namespace CookBook.UI
 
         private void AddToFridgeBtn_Click(object sender, EventArgs e)
         {
-            Ingredient ingredient = new Ingredient();
-
-            ingredient.Name = NameTxt.Text;
-            ingredient.Type = TypeTxt.Text;
-            ingredient.Weight = WeightNum.Value;
-            ingredient.KcalPer100g = KcalPer100gNum.Value;
-            ingredient.PricePer100g = PricePer100gNum.Value;
+            Ingredient ingredient = new Ingredient(NameTxt.Text, TypeTxt.Text, WeightNum.Value, KcalPer100gNum.Value, PricePer100gNum.Value);
 
             IngredientsDataAccess db = new IngredientsDataAccess();
             db.AddIngredient(ingredient);
