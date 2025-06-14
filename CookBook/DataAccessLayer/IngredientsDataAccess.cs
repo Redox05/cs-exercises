@@ -18,7 +18,7 @@ namespace DataAccessLayer
             
             string query = "insert into Ingredients (Name, Weight, KcalPer100g, PricePer100g, Type) values(@Name, @Weight, @KcalPer100g, @PricePer100g, @Type)";
 
-            using (IDbConnection connection = new SqlConnection(ConnectionHelper.GetConnectionString()))
+            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
             {
                 connection.Execute(query, ingredient);
             }
@@ -27,10 +27,9 @@ namespace DataAccessLayer
         {
             string query = "select * from Ingredients";
 
-            using (IDbConnection connection = new SqlConnection(ConnectionHelper.GetConnectionString()))
+            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
             {
-                List<Ingredient> ingredients = connection. Query<Ingredient>(query).ToList();
-                return ingredients;
+                return connection. Query<Ingredient>(query).ToList();
             }
         }
     }
