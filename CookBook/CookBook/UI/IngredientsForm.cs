@@ -14,17 +14,19 @@ namespace CookBook.UI
 {
     public partial class IngredientsForm : Form
     {
+        readonly IngredientsDataAccess _db;
+
         public IngredientsForm()
         {
             InitializeComponent();
+            _db= new IngredientsDataAccess();
         }
 
         private void AddToFridgeBtn_Click(object sender, EventArgs e)
         {
             Ingredient ingredient = new Ingredient(NameTxt.Text, TypeTxt.Text, WeightNum.Value, KcalPer100gNum.Value, PricePer100gNum.Value);
 
-            IngredientsDataAccess db = new IngredientsDataAccess();
-            db.AddIngredient(ingredient);
+            _db.AddIngredient(ingredient);
             ClearAllFields();
             RefreshGridData();
 
@@ -48,9 +50,7 @@ namespace CookBook.UI
 
         private void RefreshGridData()
         {
-            IngredientsDataAccess db = new IngredientsDataAccess();
-            List<Ingredient> ingredients = db.GetIngredients();
-            IngredientsGrid.DataSource = ingredients;
+            IngredientsGrid.DataSource = _db.GetIngredients();
         }
         private void CustomizeGridAppearance()
         {
