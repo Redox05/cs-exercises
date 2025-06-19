@@ -7,19 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DataAccessLayer;
+using DataAccessLayer.Repositories;
 using DomainModel.Models;
 
 namespace CookBook.UI
 {
     public partial class IngredientsForm : Form
     {
-        readonly IngredientsDataAccess _db;
+        readonly IngredientsRepository _db;
 
         public IngredientsForm()
         {
             InitializeComponent();
-            _db= new IngredientsDataAccess();
+            _db= new IngredientsRepository();
         }
 
         private void AddToFridgeBtn_Click(object sender, EventArgs e)

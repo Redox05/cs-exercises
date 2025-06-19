@@ -9,9 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccessLayer
+namespace DataAccessLayer.Repositories
 {
-    public class IngredientsDataAccess
+    public class IngredientsRepository
     {
         public void AddIngredient(Ingredient  ingredient)
         {
