@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConnectionHelper.cs" />
+    <Compile Include="Contracts\IIngredientsRepository.cs" />
     <Compile Include="Repositories\IngredientsRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
