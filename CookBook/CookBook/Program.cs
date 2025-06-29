@@ -1,4 +1,7 @@
 using CookBook.UI;
+using DataAccessLayer.Contracts;
+using DataAccessLayer.Repositories;
+using System.Configuration;
 
 namespace CookBook
 {
@@ -10,10 +13,20 @@ namespace CookBook
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new IngredientsForm());
+
+            IIngredientsRepository ingredientsRepository = null;
+
+            if (ConfigurationManager.AppSettings["repositoryType"] == "txt")
+            {
+                ingredientsRepository = new IngredientsRepository();
+            }
+            else
+            {
+                ingredientsRepository = new IngredientsRepository();
+            }
+
+                Application.Run(new IngredientsForm(ingredientsRepository));
         }
     }
 }
