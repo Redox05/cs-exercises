@@ -33,5 +33,15 @@ namespace DataAccessLayer.Repositories
                 return connection.Query<Ingredient>(query).ToList();
             }
         }
+
+        public List<Ingredient> SearchIngredients(string name)
+        {
+            string query = $"select * from Ingredients where Name like '{name}%'";
+
+            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+            {
+                return connection.Query<Ingredient>(query).ToList();
+            }
+        }
     }
 }

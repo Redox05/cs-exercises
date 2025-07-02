@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\App.config",
               "RelativeDocumentMoniker": "CookBook\\App.config",
@@ -67,13 +67,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\Program.cs",
               "RelativeDocumentMoniker": "CookBook\\Program.cs",
               "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\Program.cs",
               "RelativeToolTip": "CookBook\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBkAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBMAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T15:05:38.744Z",
               "EditorCaption": ""
@@ -101,8 +101,7 @@
               "RelativeToolTip": "DataAccessLayer\\Contracts\\IIngredientsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T01:21:46.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T01:21:46.712Z"
             },
             {
               "$type": "Document",
@@ -114,8 +113,7 @@
               "RelativeToolTip": "DataAccessLayer\\ConnectionHelper.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T12:01:14.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T12:01:14.888Z"
             },
             {
               "$type": "Document",
@@ -127,8 +125,7 @@
               "RelativeToolTip": "DataAccessLayer\\Repositories\\IngredientsRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T11:58:29.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T11:58:29.334Z"
             },
             {
               "$type": "Document",
@@ -140,8 +137,7 @@
               "RelativeToolTip": "DomainModel\\Models\\Ingredient.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAywAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T01:49:51.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T01:49:51.701Z"
             },
             {
               "$type": "Document",
