@@ -24,24 +24,20 @@ namespace DataAccessLayer.Repositories
                 connection.Execute(query, ingredient);
             }
         }
-        public List<Ingredient> GetIngredients()
+        public List<Ingredient> GetIngredients(string name = "")
         {
             string query = "select * from Ingredients";
 
-            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+            if (!string.IsNullOrEmpty(name))
             {
-                return connection.Query<Ingredient>(query).ToList();
+                query += $" where Name like '{name}%'";
             }
-        }
-
-        public List<Ingredient> SearchIngredients(string name)
-        {
-            string query = $"select * from Ingredients where Name like '{name}%'";
 
             using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
             {
                 return connection.Query<Ingredient>(query).ToList();
             }
         }
+        
     }
 }
