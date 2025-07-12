@@ -4,17 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookBook", "CookBook\CookBook.csproj", "{434B1B26-CA1D-4775-B149-5F3FC444A6BF}"
-	ProjectSection(ProjectDependencies) = postProject
-		{258D7CA1-DE2F-431F-9001-04291CB3614D} = {258D7CA1-DE2F-431F-9001-04291CB3614D}
-		{D764C64C-7C1C-44F5-8F67-761690F17E4D} = {D764C64C-7C1C-44F5-8F67-761690F17E4D}
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{258D7CA1-DE2F-431F-9001-04291CB3614D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{D764C64C-7C1C-44F5-8F67-761690F17E4D}"
-	ProjectSection(ProjectDependencies) = postProject
-		{258D7CA1-DE2F-431F-9001-04291CB3614D} = {258D7CA1-DE2F-431F-9001-04291CB3614D}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{8E6FE823-8E6F-457F-A3C8-A0749E902291}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,14 +17,10 @@ Global
 		{434B1B26-CA1D-4775-B149-5F3FC444A6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{434B1B26-CA1D-4775-B149-5F3FC444A6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{434B1B26-CA1D-4775-B149-5F3FC444A6BF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{258D7CA1-DE2F-431F-9001-04291CB3614D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{258D7CA1-DE2F-431F-9001-04291CB3614D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{258D7CA1-DE2F-431F-9001-04291CB3614D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{258D7CA1-DE2F-431F-9001-04291CB3614D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D764C64C-7C1C-44F5-8F67-761690F17E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D764C64C-7C1C-44F5-8F67-761690F17E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D764C64C-7C1C-44F5-8F67-761690F17E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D764C64C-7C1C-44F5-8F67-761690F17E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6FE823-8E6F-457F-A3C8-A0749E902291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6FE823-8E6F-457F-A3C8-A0749E902291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6FE823-8E6F-457F-A3C8-A0749E902291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6FE823-8E6F-457F-A3C8-A0749E902291}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -23,23 +23,16 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows8.0"
+          "net8.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows8.0": {
-            "targetAlias": "net8.0-windows8.0",
-            "projectReferences": {
-              "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj"
-              },
-              "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj": {
-                "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj"
-              }
-            }
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows7.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -55,8 +48,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0-windows8.0": {
-          "targetAlias": "net8.0-windows8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows7.0",
           "dependencies": {
             "System.Data.SqlClient": {
               "target": "Package",
@@ -82,44 +75,8 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj",
-        "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj": {
-                "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj",
-        "projectName": "DomainModel",
-        "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net48": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
       }
     }
   }

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows8.0": {
+    "net8.0-windows7.0": {
       "runtime.native.System.Data.SqlClient.sni/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -64,27 +64,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "DataAccessLayer/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "DomainModel": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/DataAccessLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccessLayer.dll": {}
-        }
-      },
-      "DomainModel/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/DomainModel.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DomainModel.dll": {}
         }
       }
     }
@@ -181,22 +160,10 @@
         "system.data.sqlclient.4.9.0.nupkg.sha512",
         "system.data.sqlclient.nuspec"
       ]
-    },
-    "DataAccessLayer/1.0.0": {
-      "type": "project",
-      "path": "../DataAccessLayer/DataAccessLayer.csproj",
-      "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
-    },
-    "DomainModel/1.0.0": {
-      "type": "project",
-      "path": "../DomainModel/DomainModel.csproj",
-      "msbuildProject": "../DomainModel/DomainModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0-windows8.0": [
-      "DataAccessLayer >= 1.0.0",
-      "DomainModel >= 1.0.0",
+    "net8.0-windows7.0": [
       "System.Data.SqlClient >= 4.9.0"
     ]
   },
@@ -224,23 +191,16 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net8.0-windows8.0"
+        "net8.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows8.0": {
-          "targetAlias": "net8.0-windows8.0",
-          "projectReferences": {
-            "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj"
-            },
-            "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj": {
-              "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj"
-            }
-          }
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows7.0",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -256,8 +216,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net8.0-windows8.0": {
-        "targetAlias": "net8.0-windows8.0",
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows7.0",
         "dependencies": {
           "System.Data.SqlClient": {
             "target": "Package",
@@ -283,7 +243,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

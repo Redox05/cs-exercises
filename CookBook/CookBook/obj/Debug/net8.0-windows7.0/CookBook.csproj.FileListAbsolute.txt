@@ -1,0 +1,8 @@
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.csproj.AssemblyReference.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.UI.IngredientsForm.resources
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.csproj.GenerateResource.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.AssemblyInfoInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.AssemblyInfo.cs
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.csproj.CoreCompileInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.sourcelink.json

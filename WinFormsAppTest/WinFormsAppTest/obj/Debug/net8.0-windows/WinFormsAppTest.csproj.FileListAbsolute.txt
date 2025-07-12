@@ -1,0 +1,17 @@
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\bin\Debug\net8.0-windows\WinFormsAppTest.exe
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\bin\Debug\net8.0-windows\WinFormsAppTest.deps.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\bin\Debug\net8.0-windows\WinFormsAppTest.runtimeconfig.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\bin\Debug\net8.0-windows\WinFormsAppTest.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\bin\Debug\net8.0-windows\WinFormsAppTest.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.Form1.resources
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.csproj.GenerateResource.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.AssemblyInfoInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.AssemblyInfo.cs
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.csproj.CoreCompileInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.sourcelink.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\refint\WinFormsAppTest.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\WinFormsAppTest.genruntimeconfig.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\WinFormsAppTest\WinFormsAppTest\obj\Debug\net8.0-windows\ref\WinFormsAppTest.dll
