@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using DataAccessLayer.Contracts;
 using DataAccessLayer.Repositories;
 using DomainModel.Models;
+using DomainModel;
 
 namespace CookBook.UI
 {
