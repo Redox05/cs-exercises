@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zBU26ex9JOY=",
+  "dgSpecHash": "cRAt6xPJkgM=",
   "success": true,
   "projectFilePath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\RKO\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512"
+  ],
   "logs": []
 }

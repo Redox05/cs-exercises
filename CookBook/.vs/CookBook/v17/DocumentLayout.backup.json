@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09237480-4AB0-4E11-9255-CD4B905B1F9B}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\dataaccesslayer\\ingredientsdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09237480-4AB0-4E11-9255-CD4B905B1F9B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\ingredientsdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E6FE823-8E6F-457F-A3C8-A0749E902291}|DomainModel\\DomainModel.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\domainmodel\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E6FE823-8E6F-457F-A3C8-A0749E902291}|DomainModel\\DomainModel.csproj|solutionrelative:domainmodel\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\ui\\ingredientsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\ui\\ingredientsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IngredientsDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\IngredientsDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\IngredientsDataAccess.cs",
+              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\IngredientsDataAccess.cs",
+              "RelativeToolTip": "DataAccessLayer\\IngredientsDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T02:19:05.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IngredientsForm.cs",
               "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
               "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.cs",
@@ -47,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "IngredientsForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
               "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.cs",
@@ -56,32 +65,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-12T20:20:50.163Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IngredientsForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.Designer.cs",
-              "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.Designer.cs",
-              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.Designer.cs",
-              "RelativeToolTip": "CookBook\\UI\\IngredientsForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T20:20:33.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ingredient.cs",
-              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\Models\\Ingredient.cs",
-              "RelativeDocumentMoniker": "DomainModel\\Models\\Ingredient.cs",
-              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\Models\\Ingredient.cs",
-              "RelativeToolTip": "DomainModel\\Models\\Ingredient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T20:17:16.505Z",
-              "EditorCaption": ""
             }
           ]
         }
