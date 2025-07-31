@@ -1,0 +1,5 @@
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.AssemblyInfoInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.AssemblyInfo.cs
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.sourcelink.json

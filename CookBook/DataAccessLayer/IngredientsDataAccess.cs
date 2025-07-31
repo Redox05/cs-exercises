@@ -17,11 +17,28 @@ namespace DataAccessLayer
         {
             string connectionString = ConfigurationManager.ConnectionStrings["CookBookConnectionString"].ConnectionString;
 
+            string query = @"insert into Ingredients
+                (Name, Weight, KcalPer100g, PricePer100g, Type)
+                values(@Name, @Weight, @KcalPer100g, @PricePer100g, @Type)"; 
+
             using (IDbConnection connection = new SqlConnection(connectionString))
             {
-                connection.Execute("dbo.InsertIngredientProcedure @Name, @Weight, @KcalPer100g, @PricePer100g, @Type", ingredient);
+                connection.Execute(query, ingredient);
             }
         }
-        
+
+        public List<Ingredient> GetIngredients()
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["CookBookConnectionString"].ConnectionString;
+
+            string query = "select * from Ingredients";
+
+            using (IDbConnection connection = new SqlConnection(connectionString))
+            {
+                List<Ingredient> ingredients = connection.Query<Ingredient>(query).ToList();
+                return ingredients;
+            }
+        }
+
     }
 }

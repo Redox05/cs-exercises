@@ -1,0 +1,6 @@
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
