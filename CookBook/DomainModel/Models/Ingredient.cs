@@ -26,4 +26,5 @@ namespace DomainModel.Models
             KcalPer100g = kcalPer100g;
             PricePer100g = PricePer100g;
         }
+    }
 }

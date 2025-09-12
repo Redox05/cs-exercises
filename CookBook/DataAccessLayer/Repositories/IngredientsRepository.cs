@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 using Dapper;
 
-namespace DataAccessLayer
+namespace DataAccessLayer.Repositories
 {
-    public class IngredientsDataAccess
+    public class IngredientsRepository
     {
         public void AddIngredient(Ingredient ingredient)
         {
