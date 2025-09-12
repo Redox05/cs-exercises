@@ -8,10 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 using Dapper;
+using DataAccessLayer.Contracts;
 
 namespace DataAccessLayer.Repositories
 {
-    public class IngredientsRepository
+    public class IngredientsRepository : IIngredientsRepository
     {
         public void AddIngredient(Ingredient ingredient)
         {
