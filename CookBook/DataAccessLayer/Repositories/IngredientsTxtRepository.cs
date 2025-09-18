@@ -23,7 +23,29 @@ namespace DataAccessLayer.Repositories
 
         public List<Ingredient> GetIngredients()
         {
-            throw new NotImplementedException();
+            List<Ingredient> ingredients = new List<Ingredient>();
+
+            using (StreamReader sr = File.OpenText(_filePath))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string line = sr.ReadLine();
+                    string[] values = line.Split('|');
+
+                    Ingredient ingredient = new Ingredient();
+                    ingredient.Id = int.Parse(values[0]);
+                    ingredient.Name = values[1];
+                    ingredient.Weight = decimal.Parse(values[2]);
+                    ingredient.KcalPer100g = decimal.Parse(values[3]);
+                    ingredient.PricePer100g = decimal.Parse(values[4]);
+                    ingredient.Type = values[5];
+
+                    ingredients.Add(ingredient);
+                }
+
+                return ingredients;
+                
+            }
         }
     }
 }
