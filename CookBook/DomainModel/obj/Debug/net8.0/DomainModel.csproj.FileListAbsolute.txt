@@ -3,3 +3,10 @@ C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8
 C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.AssemblyInfo.cs
 C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.csproj.CoreCompileInputs.cache
 C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.sourcelink.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\bin\Debug\net8.0\DomainModel.deps.json
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\bin\Debug\net8.0\DomainModel.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\bin\Debug\net8.0\DomainModel.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\refint\DomainModel.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\DomainModel.pdb
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\DomainModel\obj\Debug\net8.0\ref\DomainModel.dll

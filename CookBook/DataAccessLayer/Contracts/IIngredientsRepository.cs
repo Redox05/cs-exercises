@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Contracts
 {
-    internal interface IIngredientsRepository
+    public interface IIngredientsRepository
     {
         public void AddIngredient(Ingredient ingredient);
 

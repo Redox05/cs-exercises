@@ -1,6 +1,8 @@
 using CookBook.UI;
 using DataAccessLayer.Contracts;
 using DataAccessLayer.Repositories;
+using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Configuration;
 
 namespace CookBook
@@ -15,18 +17,25 @@ namespace CookBook
         {
             ApplicationConfiguration.Initialize();
 
-            IIngredientsRepository ingredientsRepository = null;
+            ServiceCollection services = ConfigureServices();
+            ServiceProvider serviceProvider = services.BuildServiceProvider();
+
+            var startForm = serviceProvider.GetRequiredService<IngredientsForm>();
+            Application.Run(startForm);
+        }
+        static ServiceCollection ConfigureServices()
+        {
+            ServiceCollection services = new ServiceCollection();
 
             if (ConfigurationManager.AppSettings["repositoryType"] == "txt")
-            {
-                ingredientsRepository = new IngredientsRepository();
-            }
+                services.AddTransient<IIngredientsRepository>(_ => new IngredientsTxtRepository());
             else
-            {
-                ingredientsRepository = new IngredientsRepository();
-            }
+                services.AddTransient<IIngredientsRepository>(_ => new IngredientsRepository());
 
-                Application.Run(new IngredientsForm(ingredientsRepository));
+            services.AddTransient<IngredientsForm>();
+
+            return services;
+
         }
     }
 }
