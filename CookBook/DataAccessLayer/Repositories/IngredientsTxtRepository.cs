@@ -21,7 +21,7 @@ namespace DataAccessLayer.Repositories
             }
         }
 
-        public List<Ingredient> GetIngredients()
+        public List<Ingredient> GetIngredients(string? name = "")
         {
             List<Ingredient> ingredients = new List<Ingredient>();
 
@@ -40,7 +40,16 @@ namespace DataAccessLayer.Repositories
                     ingredient.PricePer100g = decimal.Parse(values[4]);
                     ingredient.Type = values[5];
 
-                    ingredients.Add(ingredient);
+                    if (string.IsNullOrEmpty(name))
+                    {
+                        ingredients.Add(ingredient);
+                    }
+                    else if(!string.IsNullOrEmpty(name) && ingredient.Name.ToLower().StartsWith(name.ToLower()))
+                    {
+                        ingredients.Add(ingredient);
+                    }
+
+                        ingredients.Add(ingredient);
                 }
 
                 return ingredients;

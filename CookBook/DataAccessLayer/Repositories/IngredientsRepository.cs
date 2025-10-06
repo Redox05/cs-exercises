@@ -28,11 +28,16 @@ namespace DataAccessLayer.Repositories
             }
         }
 
-        public List<Ingredient> GetIngredients()
+        public List<Ingredient> GetIngredients(string? name="")
         {
             string connectionString = ConfigurationManager.ConnectionStrings["CookBookConnectionString"].ConnectionString;
 
             string query = "select * from Ingredients";
+
+            if (!string.IsNullOrEmpty(name))
+            {
+                query += $" where Name like '{name}%'";
+            }
 
             using (IDbConnection connection = new SqlConnection(connectionString))
             {

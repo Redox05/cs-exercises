@@ -77,3 +77,4 @@ C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-
 C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.pdb
 C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.genruntimeconfig.cache
 C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\ref\CookBook.dll
+C:\Users\RKO\Documents\GitStuff\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-windows7.0\Microsoft.Extensions.DependencyInjection.dll
