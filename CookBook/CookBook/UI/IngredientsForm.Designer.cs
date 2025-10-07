@@ -161,6 +161,7 @@
             SearchBtn.TabIndex = 13;
             SearchBtn.Text = "Search";
             SearchBtn.UseVisualStyleBackColor = true;
+            SearchBtn.Click += SearchBtn_Click;
             // 
             // IngredientsForm
             // 

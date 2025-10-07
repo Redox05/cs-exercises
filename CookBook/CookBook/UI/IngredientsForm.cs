@@ -52,7 +52,7 @@ namespace CookBook.UI
 
         private void RefreshGridData()
         {
-            IngredientsGrid.DataSource = _ingredientsRepository.GetIngredients();
+            IngredientsGrid.DataSource = _ingredientsRepository.GetIngredients(SearchTxt.Text);
         }
         private void CustomizeGridAppearance()
         {
@@ -62,8 +62,8 @@ namespace CookBook.UI
 
             DataGridViewColumn[] columns = new DataGridViewColumn[6];
 
-            columns[0] = new DataGridViewTextBoxColumn() {DataPropertyName = "Id", Visible=false};
-            columns[1] = new DataGridViewTextBoxColumn() { DataPropertyName = "Name", HeaderText ="Name" };
+            columns[0] = new DataGridViewTextBoxColumn() { DataPropertyName = "Id", Visible = false };
+            columns[1] = new DataGridViewTextBoxColumn() { DataPropertyName = "Name", HeaderText = "Name" };
             columns[2] = new DataGridViewTextBoxColumn() { DataPropertyName = "Type", HeaderText = "Type" };
             columns[3] = new DataGridViewTextBoxColumn() { DataPropertyName = "Weight", HeaderText = "Weight" };
             columns[4] = new DataGridViewTextBoxColumn() { DataPropertyName = "PricePer100g", HeaderText = "Price (100g)" };
@@ -75,6 +75,11 @@ namespace CookBook.UI
             IngredientsGrid.Columns.Clear();
 
             IngredientsGrid.Columns.AddRange(columns);
+        }
+
+        private void SearchBtn_Click(object sender, EventArgs e)
+        {
+            RefreshGridData();
         }
     }
 }
