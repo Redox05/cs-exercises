@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09237480-4AB0-4E11-9255-CD4B905B1F9B}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\dataaccesslayer\\repositories\\ingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +19,8 @@
       "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09237480-4AB0-4E11-9255-CD4B905B1F9B}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\rko\\documents\\gitstuff\\cs-exercises\\cookbook\\dataaccesslayer\\contracts\\iingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "IngredientsForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
               "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.cs",
@@ -55,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IngredientsForm.cs",
+              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
+              "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.cs",
+              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
+              "RelativeToolTip": "CookBook\\UI\\IngredientsForm.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAA1wCsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T01:50:44.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IngredientsRepository.cs",
               "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\Repositories\\IngredientsRepository.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IngredientsRepository.cs",
@@ -67,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\Program.cs",
               "RelativeDocumentMoniker": "CookBook\\Program.cs",
@@ -81,25 +94,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IngredientsForm.cs",
-              "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
-              "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.cs",
-              "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
-              "RelativeToolTip": "CookBook\\UI\\IngredientsForm.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAA3wFEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T01:50:44.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\App.config",
               "RelativeDocumentMoniker": "CookBook\\App.config",
               "ToolTip": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\CookBook\\App.config",
               "RelativeToolTip": "CookBook\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-09-25T02:33:01.036Z",
               "EditorCaption": ""

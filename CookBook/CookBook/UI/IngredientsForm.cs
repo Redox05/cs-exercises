@@ -36,11 +36,12 @@ namespace CookBook.UI
 
         private void ClearAllFields()
         {
-            NameTxt.Text = default;
-            TypeTxt.Text = default;
+            NameTxt.Text = string.Empty;
+            TypeTxt.Text = string.Empty;
             WeightNum.Value = 1;
-            KcalPer100gNum.Value = default;
-            PricePer100gNum.Value = default;
+            KcalPer100gNum.Value = 0;
+            PricePer100gNum.Value = 0;
+            SearchTxt.Text = string.Empty;
 
         }
 
@@ -80,6 +81,12 @@ namespace CookBook.UI
         private void SearchBtn_Click(object sender, EventArgs e)
         {
             RefreshGridData();
+        }
+
+        private void ClearAllFieldsBtn_Click(object sender, EventArgs e)
+        {
+            RefreshGridData();
+
         }
     }
 }
