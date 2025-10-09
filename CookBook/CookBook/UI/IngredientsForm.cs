@@ -78,12 +78,12 @@ namespace CookBook.UI
             IngredientsGrid.Columns.AddRange(columns);
         }
 
-        private void SearchBtn_Click(object sender, EventArgs e)
+        private void ClearAllFieldsBtn_Click(object sender, EventArgs e)
         {
-            RefreshGridData();
+            ClearAllFields();
         }
 
-        private void ClearAllFieldsBtn_Click(object sender, EventArgs e)
+        private void SearchTxt_TextChanged(object sender, EventArgs e)
         {
             RefreshGridData();
 
