@@ -39,6 +39,9 @@ namespace DataAccessLayer.Repositories
                 query += $" where Name like '{name}%'";
             }
 
+            string delay = " WAITFOR DELAY '00:00:02'";
+            query += delay;
+
             using (IDbConnection connection = new SqlConnection(connectionString))
             {
                 List<Ingredient> ingredients = connection.Query<Ingredient>(query).ToList();
