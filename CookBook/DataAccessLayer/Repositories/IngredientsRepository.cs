@@ -28,26 +28,22 @@ namespace DataAccessLayer.Repositories
             }
         }
 
-        public List<Ingredient> GetIngredients(string? name="")
+        public async Task<List<Ingredient>> GetIngredients(string? name = "")
         {
-            string connectionString = ConfigurationManager.ConnectionStrings["CookBookConnectionString"].ConnectionString;
-
             string query = "select * from Ingredients";
-
             if (!string.IsNullOrEmpty(name))
-            {
                 query += $" where Name like '{name}%'";
-            }
 
             string delay = " WAITFOR DELAY '00:00:02'";
             query += delay;
 
-            using (IDbConnection connection = new SqlConnection(connectionString))
+            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
             {
-                List<Ingredient> ingredients = connection.Query<Ingredient>(query).ToList();
-                return ingredients;
+                return (await connection.QueryAsync<Ingredient>(query)).ToList();
             }
         }
+
+        
 
     }
 }
