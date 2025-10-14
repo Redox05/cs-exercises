@@ -17,15 +17,17 @@ namespace CookBook.UI
     public partial class IngredientsForm : Form
     {
         readonly IIngredientsRepository _ingredientsRepository;
-
         public IngredientsForm(IIngredientsRepository ingredientsRepository)
         {
             InitializeComponent();
             _ingredientsRepository = ingredientsRepository;
         }
-
         private async void AddToFridgeBtn_Click(object sender, EventArgs e)
         {
+            if (!IsValid())
+            {
+                return;
+            }
             Ingredient ingredient = new Ingredient(NameTxt.Text, TypeTxt.Text, WeightNum.Value, KcalPer100gNum.Value, PricePer100gNum.Value);
 
             AddToFridgeBtn.Enabled = false;
@@ -38,7 +40,6 @@ namespace CookBook.UI
             AddToFridgeBtn.Enabled = true; 
 
         }
-
         private void ClearAllFields()
         {
             NameTxt.Text = string.Empty;
@@ -49,13 +50,11 @@ namespace CookBook.UI
             SearchTxt.Text = string.Empty;
 
         }
-
         private void IngredientsForm_Load(object sender, EventArgs e)
         {
             RefreshGridData();
             CustomizeGridAppearance();
         }
-
         private async void RefreshGridData()
         {
             IngredientsGrid.DataSource = await _ingredientsRepository.GetIngredients(SearchTxt.Text);
@@ -82,16 +81,57 @@ namespace CookBook.UI
 
             IngredientsGrid.Columns.AddRange(columns);
         }
-
         private void ClearAllFieldsBtn_Click(object sender, EventArgs e)
         {
             ClearAllFields();
         }
-
-        private void SearchTxt_TextChanged(object sender, EventArgs e)
+        private async void SearchTxt_TextChanged(object sender, EventArgs e)
         {
-            RefreshGridData();
+            int lengthBeforePause = SearchTxt.Text.Length;
 
+            await Task.Delay(500);
+
+            int lengthAfterPause = SearchTxt.Text.Length;
+
+            if(lengthBeforePause == lengthAfterPause)
+            {
+                RefreshGridData();
+            }
+        }
+        private bool IsValid()
+        {
+            bool isValid = true;
+            string message = "";
+            if (string.IsNullOrEmpty(NameTxt.Text))
+            {
+                isValid = false;
+                message += "Please enter name.\n\n";
+            }
+            if (string.IsNullOrEmpty(TypeTxt.Text))
+            {
+                isValid = false;
+                message += "Please enter type.\n\n";
+            }
+            if (WeightNum.Value <=0)
+            {
+                isValid = false;
+                message += "Weight must be greater than 0.\n\n";
+            }
+            if (KcalPer100gNum.Value < 0)
+            {
+                isValid = false;
+                message += "Please enter a valid number of Kcal.\n\n";
+            }
+            if (PricePer100gNum.Value <= 0)
+            {
+                isValid = false;
+                message += "Price must be greater than 0.\n\n";
+            }
+            if (!isValid)
+            {
+                MessageBox.Show(message, "Not a valid form!");
+            }
+            return isValid;
         }
     }
 }
