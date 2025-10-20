@@ -37,7 +37,7 @@ namespace CookBook.UI
             ClearAllFields();
             RefreshGridData();
 
-            AddToFridgeBtn.Enabled = true; 
+            AddToFridgeBtn.Enabled = true;
 
         }
         private void ClearAllFields()
@@ -73,7 +73,8 @@ namespace CookBook.UI
             columns[3] = new DataGridViewTextBoxColumn() { DataPropertyName = "Weight", HeaderText = "Weight" };
             columns[4] = new DataGridViewTextBoxColumn() { DataPropertyName = "PricePer100g", HeaderText = "Price (100g)" };
             columns[5] = new DataGridViewTextBoxColumn() { DataPropertyName = "KcalPer100g", HeaderText = "Kcal (100g)" };
-            columns[6] = new DataGridViewButtonColumn() { 
+            columns[6] = new DataGridViewButtonColumn()
+            {
                 Text = "Delete",
                 Name = "DeleteBtn",
                 HeaderText = "",
@@ -99,7 +100,7 @@ namespace CookBook.UI
 
             int lengthAfterPause = SearchTxt.Text.Length;
 
-            if(lengthBeforePause == lengthAfterPause)
+            if (lengthBeforePause == lengthAfterPause)
             {
                 RefreshGridData();
             }
@@ -115,7 +116,7 @@ namespace CookBook.UI
             }
             else
             {
-                List<Ingredient> ingredients = (List<Ingredient>) IngredientsGrid.DataSource;
+                List<Ingredient> ingredients = (List<Ingredient>)IngredientsGrid.DataSource;
 
                 foreach (Ingredient ingredient in ingredients)
                 {
@@ -132,7 +133,7 @@ namespace CookBook.UI
                 isValid = false;
                 message += "Please enter type.\n\n";
             }
-            if (WeightNum.Value <=0)
+            if (WeightNum.Value <= 0)
             {
                 isValid = false;
                 message += "Weight must be greater than 0.\n\n";
@@ -152,6 +153,16 @@ namespace CookBook.UI
                 MessageBox.Show(message, "Not a valid form!");
             }
             return isValid;
+        }
+
+        private async void IngredientsGrid_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >=0 && IngredientsGrid.CurrentCell is DataGridViewButtonCell)
+            {
+                Ingredient clickedIngredient = (Ingredient) IngredientsGrid.Rows[e.RowIndex].DataBoundItem;
+                await _ingredientsRepository.DeleteIngredient(clickedIngredient);
+                RefreshGridData();
+            }
         }
     }
 }
