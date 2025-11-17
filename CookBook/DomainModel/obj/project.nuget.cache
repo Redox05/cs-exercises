@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "A9d0tyTMRXw=",
+  "dgSpecHash": "xiWg3zTs6Bw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

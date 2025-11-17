@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\RKO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\RUBEN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\RKO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\RUBEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -33,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj": {
-                "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj"
+              "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj": {
+                "projectPath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj"
               }
             }
           }
@@ -49,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -83,31 +78,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj": {
+    "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj",
+        "projectUniqueName": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj",
         "projectName": "DomainModel",
-        "projectPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj",
-        "packagesPath": "C:\\Users\\RKO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CookBook\\DomainModel\\obj\\",
+        "projectPath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DomainModel\\DomainModel.csproj",
+        "packagesPath": "C:\\Users\\RUBEN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DomainModel\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\RKO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\RUBEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -133,7 +137,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -149,12 +153,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
