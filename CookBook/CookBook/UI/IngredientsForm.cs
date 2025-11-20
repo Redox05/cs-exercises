@@ -80,7 +80,13 @@ namespace CookBook.UI
                 HeaderText = "",
                 UseColumnTextForButtonValue = true
             };
-            
+            columns[7] = new DataGridViewButtonColumn()
+            {
+                Text = "Edit",
+                Name = "EditBtn",
+                HeaderText = "",
+                UseColumnTextForButtonValue = true
+            };
 
             //If you run the app with just the code above, modifications will not be shown.
             //You need to implement the following code to see the changes.
