@@ -65,7 +65,7 @@ namespace CookBook.UI
 
             IngredientsGrid.AutoGenerateColumns = false;
 
-            DataGridViewColumn[] columns = new DataGridViewColumn[7];
+            DataGridViewColumn[] columns = new DataGridViewColumn[8];
 
             columns[0] = new DataGridViewTextBoxColumn() { DataPropertyName = "Id", Visible = false };
             columns[1] = new DataGridViewTextBoxColumn() { DataPropertyName = "Name", HeaderText = "Name" };
@@ -77,6 +77,13 @@ namespace CookBook.UI
             {
                 Text = "Delete",
                 Name = "DeleteBtn",
+                HeaderText = "",
+                UseColumnTextForButtonValue = true
+            };
+            columns[7] = new DataGridViewButtonColumn()
+            {
+                Text = "Edit",
+                Name = "EditBtn",
                 HeaderText = "",
                 UseColumnTextForButtonValue = true
             };
