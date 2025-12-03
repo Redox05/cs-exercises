@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{09237480-4AB0-4E11-9255-CD4B905B1F9B}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cookbook\\dataaccesslayer\\repositories\\ingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09237480-4AB0-4E11-9255-CD4B905B1F9B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\ingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09237480-4AB0-4E11-9255-CD4B905B1F9B}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cookbook\\dataaccesslayer\\contracts\\iingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09237480-4AB0-4E11-9255-CD4B905B1F9B}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\contracts\\iingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cookbook\\cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{434B1B26-CA1D-4775-B149-5F3FC444A6BF}|CookBook\\CookBook.csproj|solutionrelative:cookbook\\ui\\ingredientsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "IngredientsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DataAccessLayer\\Repositories\\IngredientsRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IngredientsRepository.cs",
+              "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DataAccessLayer\\Repositories\\IngredientsRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\IngredientsRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wDgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T01:04:26.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IIngredientsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DataAccessLayer\\Contracts\\IIngredientsRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Contracts\\IIngredientsRepository.cs",
+              "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\DataAccessLayer\\Contracts\\IIngredientsRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Contracts\\IIngredientsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T01:03:20.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "IngredientsForm.cs",
               "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
               "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.cs",
@@ -43,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IngredientsForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
               "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.cs",
@@ -54,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IngredientsForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.Designer.cs",
               "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.Designer.cs",

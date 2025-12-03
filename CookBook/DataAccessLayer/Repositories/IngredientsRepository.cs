@@ -46,6 +46,22 @@ namespace DataAccessLayer.Repositories
                 await connection.ExecuteAsync(query);
             }
         }
+        public async Task EditIngredient(Ingredient ingredient)
+        {
+            string query = @$"uppdate Ingredients
+                              set
+                              Name = @Name,
+                              Weight = @Weight,
+                              KcalPer100g = @KcalPer100g,
+                              PricePer100g = @PricePer100g,
+                              Type = @Type
+                              where Id = @Id";
+
+            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+            {
+                await connection.ExecuteAsync(query, ingredient);
+            }
+        }
 
     }
 }
