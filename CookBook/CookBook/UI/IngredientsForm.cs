@@ -17,6 +17,7 @@ namespace CookBook.UI
     public partial class IngredientsForm : Form
     {
         readonly IIngredientsRepository _ingredientsRepository;
+        private int _ingredientToEditId;
         public IngredientsForm(IIngredientsRepository ingredientsRepository)
         {
             InitializeComponent();
@@ -54,6 +55,9 @@ namespace CookBook.UI
         {
             RefreshGridData();
             CustomizeGridAppearance();
+
+            AddToFridgeBtn.Visible = true;
+            EditIngredientBtn.Visible = false;
         }
         private async void RefreshGridData()
         {
@@ -164,9 +168,9 @@ namespace CookBook.UI
 
         private async void IngredientsGrid_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >=0 && IngredientsGrid.CurrentCell is DataGridViewButtonCell)
+            if (e.RowIndex >= 0 && IngredientsGrid.CurrentCell is DataGridViewButtonCell)
             {
-                Ingredient clickedIngredient = (Ingredient) IngredientsGrid.Rows[e.RowIndex].DataBoundItem;
+                Ingredient clickedIngredient = (Ingredient)IngredientsGrid.Rows[e.RowIndex].DataBoundItem;
 
                 if (IngredientsGrid.CurrentCell.OwningColumn.Name == "DelteBtn")
                 {
@@ -174,9 +178,10 @@ namespace CookBook.UI
                     RefreshGridData();
 
                 }
-                else if(IngredientsGrid.CurrentCell.OwningColumn.Name == "EditBtn")
+                else if (IngredientsGrid.CurrentCell.OwningColumn.Name == "EditBtn")
                 {
                     FillFormForEdit(clickedIngredient);
+                    _ingredientToEditId = clickedIngredient.Id;
                 }
             }
         }
@@ -188,7 +193,23 @@ namespace CookBook.UI
             WeightNum.Value = clickedIngredient.Weight;
             KcalPer100gNum.Value = clickedIngredient.KcalPer100g;
             PricePer100gNum.Value = clickedIngredient.KcalPer100g;
-            
+
+            AddToFridgeBtn.Visible = false;
+            EditIngredientBtn.Visible = true;
+
+        }
+
+        private async void EditIngredientBtn_Click(object sender, EventArgs e)
+        {
+            if(!IsValid())
+            {
+                return;
+            }
+
+            Ingredient ingredient = new Ingredient(NameTxt.Text, TypeTxt.Text, WeightNum.Value, KcalPer100gNum.Value,
+                PricePer100gNum.Value);
+
+            await _ingredientsRepository.EditIngredient(ingredient);
         }
     }
 }
