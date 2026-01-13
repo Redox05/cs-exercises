@@ -167,9 +167,28 @@ namespace CookBook.UI
             if (e.RowIndex >=0 && IngredientsGrid.CurrentCell is DataGridViewButtonCell)
             {
                 Ingredient clickedIngredient = (Ingredient) IngredientsGrid.Rows[e.RowIndex].DataBoundItem;
-                await _ingredientsRepository.DeleteIngredient(clickedIngredient);
-                RefreshGridData();
+
+                if (IngredientsGrid.CurrentCell.OwningColumn.Name == "DelteBtn")
+                {
+                    await _ingredientsRepository.DeleteIngredient(clickedIngredient);
+                    RefreshGridData();
+
+                }
+                else if(IngredientsGrid.CurrentCell.OwningColumn.Name == "EditBtn")
+                {
+                    FillFormForEdit(clickedIngredient);
+                }
             }
+        }
+
+        private void FillFormForEdit(Ingredient clickedIngredient)
+        {
+            NameTxt.Text = clickedIngredient.Name;
+            TypeTxt.Text = clickedIngredient.Type;
+            WeightNum.Value = clickedIngredient.Weight;
+            KcalPer100gNum.Value = clickedIngredient.KcalPer100g;
+            PricePer100gNum.Value = clickedIngredient.KcalPer100g;
+            
         }
     }
 }
