@@ -172,7 +172,7 @@ namespace CookBook.UI
             {
                 Ingredient clickedIngredient = (Ingredient)IngredientsGrid.Rows[e.RowIndex].DataBoundItem;
 
-                if (IngredientsGrid.CurrentCell.OwningColumn.Name == "DelteBtn")
+                if (IngredientsGrid.CurrentCell.OwningColumn.Name == "DeleteBtn")
                 {
                     await _ingredientsRepository.DeleteIngredient(clickedIngredient);
                     RefreshGridData();
@@ -181,13 +181,15 @@ namespace CookBook.UI
                 else if (IngredientsGrid.CurrentCell.OwningColumn.Name == "EditBtn")
                 {
                     FillFormForEdit(clickedIngredient);
-                    _ingredientToEditId = clickedIngredient.Id;
+                    
                 }
             }
         }
 
         private void FillFormForEdit(Ingredient clickedIngredient)
         {
+            _ingredientToEditId = clickedIngredient.Id;
+
             NameTxt.Text = clickedIngredient.Name;
             TypeTxt.Text = clickedIngredient.Type;
             WeightNum.Value = clickedIngredient.Weight;
@@ -207,9 +209,17 @@ namespace CookBook.UI
             }
 
             Ingredient ingredient = new Ingredient(NameTxt.Text, TypeTxt.Text, WeightNum.Value, KcalPer100gNum.Value,
-                PricePer100gNum.Value);
+                PricePer100gNum.Value, _ingredientToEditId);
 
             await _ingredientsRepository.EditIngredient(ingredient);
+
+            ClearAllFields();
+            RefreshGridData();
+
+            EditIngredientBtn.Visible = false;
+            AddToFridgeBtn.Visible = true;
+
+            _ingredientToEditId = 0;
         }
     }
 }

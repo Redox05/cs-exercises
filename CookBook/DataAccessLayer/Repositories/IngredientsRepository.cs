@@ -48,7 +48,7 @@ namespace DataAccessLayer.Repositories
         }
         public async Task EditIngredient(Ingredient ingredient)
         {
-            string query = @$"uppdate Ingredients
+            string query = @"update Ingredients
                               set
                               Name = @Name,
                               Weight = @Weight,
