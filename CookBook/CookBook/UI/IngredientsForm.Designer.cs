@@ -162,7 +162,7 @@
             ClearAllFieldsBtn.Name = "ClearAllFieldsBtn";
             ClearAllFieldsBtn.Size = new Size(485, 46);
             ClearAllFieldsBtn.TabIndex = 14;
-            ClearAllFieldsBtn.Text = "ClearAllFields";
+            ClearAllFieldsBtn.Text = "Clear Fields / Cancel Edit";
             ClearAllFieldsBtn.UseVisualStyleBackColor = true;
             ClearAllFieldsBtn.Click += ClearAllFieldsBtn_Click;
             // 
