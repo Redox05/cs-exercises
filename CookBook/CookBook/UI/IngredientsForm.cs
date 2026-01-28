@@ -79,8 +79,8 @@ namespace CookBook.UI
             columns[1] = new DataGridViewTextBoxColumn() { DataPropertyName = "Name", HeaderText = "Name" };
             columns[2] = new DataGridViewTextBoxColumn() { DataPropertyName = "Type", HeaderText = "Type" };
             columns[3] = new DataGridViewTextBoxColumn() { DataPropertyName = "Weight", HeaderText = "Weight" };
-            columns[4] = new DataGridViewTextBoxColumn() { DataPropertyName = "PricePer100g", HeaderText = "Price (100g)" };
-            columns[5] = new DataGridViewTextBoxColumn() { DataPropertyName = "KcalPer100g", HeaderText = "Kcal (100g)" };
+            columns[4] = new DataGridViewTextBoxColumn() { DataPropertyName = "KcalPer100g", HeaderText = "Kcal (100g)" };
+            columns[5] = new DataGridViewTextBoxColumn() { DataPropertyName = "PricePer100g", HeaderText = "Price (100g)" };
             columns[6] = new DataGridViewButtonColumn()
             {
                 Text = "Delete",
@@ -139,7 +139,7 @@ namespace CookBook.UI
                 foreach (Ingredient ingredient in ingredients)
                 {
                     if (ingredient.Name.ToLower() == NameTxt.Text.ToLower() && ingredient.Type.ToLower() == TypeTxt.Text.ToLower()
-                        && ingredient.Weight == WeightNum.Value && ingredient.KcalPer100g == KcalPer100gNum.Value 
+                        && ingredient.Weight == WeightNum.Value && ingredient.KcalPer100g == KcalPer100gNum.Value
                         && ingredient.PricePer100g == PricePer100gNum.Value)
                     {
                         MessageBox.Show("That ingredient already exists!", "Form is not valid!");
