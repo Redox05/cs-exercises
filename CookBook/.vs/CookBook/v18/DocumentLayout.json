@@ -30,8 +30,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -42,8 +46,7 @@
               "RelativeToolTip": "DomainModel\\Models\\Ingredient.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAD4vx4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T02:57:36.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-28T02:57:36.4Z"
             },
             {
               "$type": "Document",
@@ -67,8 +70,7 @@
               "RelativeToolTip": "DataAccessLayer\\Repositories\\IngredientsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T02:38:27.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-22T02:38:27.82Z"
             },
             {
               "$type": "Document",
@@ -78,7 +80,7 @@
               "RelativeDocumentMoniker": "CookBook\\UI\\IngredientsForm.cs",
               "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs",
               "RelativeToolTip": "CookBook\\UI\\IngredientsForm.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAMwJUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAADwv4YAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-16T02:38:48.944Z",
               "EditorCaption": ""
@@ -92,8 +94,7 @@
               "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CookBook\\CookBook\\UI\\IngredientsForm.cs [Design]",
               "RelativeToolTip": "CookBook\\UI\\IngredientsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T02:28:39.112Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-19T02:28:39.112Z"
             }
           ]
         }
