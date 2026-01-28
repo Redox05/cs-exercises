@@ -145,6 +145,10 @@ namespace CookBook.UI
                         MessageBox.Show("That ingredient already exists!", "Form is not valid!");
                         return false;
                     }
+                    else
+                    {
+                        return true;
+                    }
                 }
 
             }
