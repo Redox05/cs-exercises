@@ -146,6 +146,7 @@
             IngredientsGrid.Size = new Size(929, 454);
             IngredientsGrid.TabIndex = 11;
             IngredientsGrid.CellClick += IngredientsGrid_CellClick;
+            
             // 
             // SearchTxt
             // 

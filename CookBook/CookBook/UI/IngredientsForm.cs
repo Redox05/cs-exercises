@@ -138,7 +138,9 @@ namespace CookBook.UI
 
                 foreach (Ingredient ingredient in ingredients)
                 {
-                    if (ingredient.Name.ToLower() == NameTxt.Text.ToLower())
+                    if (ingredient.Name.ToLower() == NameTxt.Text.ToLower() && ingredient.Type.ToLower() == TypeTxt.Text.ToLower()
+                        && ingredient.Weight == WeightNum.Value && ingredient.KcalPer100g == KcalPer100gNum.Value 
+                        && ingredient.PricePer100g == PricePer100gNum.Value)
                     {
                         MessageBox.Show("That ingredient already exists!", "Form is not valid!");
                         return false;
@@ -188,7 +190,7 @@ namespace CookBook.UI
                 else if (IngredientsGrid.CurrentCell.OwningColumn.Name == "EditBtn")
                 {
                     FillFormForEdit(clickedIngredient);
-                    
+
                 }
             }
         }
@@ -201,7 +203,7 @@ namespace CookBook.UI
             TypeTxt.Text = clickedIngredient.Type;
             WeightNum.Value = clickedIngredient.Weight;
             KcalPer100gNum.Value = clickedIngredient.KcalPer100g;
-            PricePer100gNum.Value = clickedIngredient.KcalPer100g;
+            PricePer100gNum.Value = clickedIngredient.PricePer100g;
 
             AddToFridgeBtn.Visible = false;
             EditIngredientBtn.Visible = true;
@@ -210,7 +212,7 @@ namespace CookBook.UI
 
         private async void EditIngredientBtn_Click(object sender, EventArgs e)
         {
-            if(!IsValid())
+            if (!IsValid())
             {
                 return;
             }
@@ -228,6 +230,8 @@ namespace CookBook.UI
 
             _ingredientToEditId = 0;
         }
+
+        
     }
 }
 
