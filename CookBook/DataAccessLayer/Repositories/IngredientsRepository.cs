@@ -16,13 +16,21 @@ namespace DataAccessLayer.Repositories
     {
         public async Task AddIngredient(Ingredient ingredient)
         {
-            string query = @"insert into Ingredients 
+            try
+            {
+                string query = @"insert into Ingredients 
                 (Name, Weight, KcalPer100g, PricePer100g, Type) 
                 values (@Name, @Weight, @KcalPer100g, @PricePer100g, @Type) ";
 
-            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+                using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+                {
+                    await connection.ExecuteAsync(query, ingredient);
+                }
+            }
+            catch (Exception ex) 
             {
-                await connection.ExecuteAsync(query, ingredient);
+                string message = ex.Message; //Stores the message from the exception
+                //TODO: Display error message
             }
         }
         public async Task<List<Ingredient>> GetIngredients(string? name = "")
