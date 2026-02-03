@@ -27,9 +27,21 @@ namespace DataAccessLayer.Repositories
                     await connection.ExecuteAsync(query, ingredient);
                 }
             }
+            catch(SqlException ex)
+            {
+                string errorMessage = "";
+                if (ex.Number == 2627) // Unique constraint error number
+                {
+                    errorMessage = "An ingredient with this name already exists.";
+                }
+                else
+                {
+                    errorMessage = "An error happened in the database";
+                }
+            }
             catch (Exception ex) 
             {
-                string message = ex.Message; //Stores the message from the exception
+                string errorMessage = "An error happened while adding ingredient"; //Stores the message from the exception
                 //TODO: Display error message
             }
         }
