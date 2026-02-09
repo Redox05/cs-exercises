@@ -30,3 +30,5 @@ C:\Users\RUBEN\source\repos\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8
 C:\Users\RUBEN\source\repos\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
 C:\Users\RUBEN\source\repos\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 C:\Users\RUBEN\source\repos\cs-exercises\CookBook\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CookBook\DataAccessLayer\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CookBook\DataAccessLayer\bin\Debug\net8.0\Infrastructure.pdb

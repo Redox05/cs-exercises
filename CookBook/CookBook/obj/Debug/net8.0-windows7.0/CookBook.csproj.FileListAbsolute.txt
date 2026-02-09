@@ -158,3 +158,5 @@ C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-wind
 C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.pdb
 C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.genruntimeconfig.cache
 C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\ref\CookBook.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-windows7.0\Infrastructure.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-windows7.0\Infrastructure.pdb

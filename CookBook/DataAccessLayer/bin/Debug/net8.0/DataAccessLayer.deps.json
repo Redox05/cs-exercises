@@ -10,6 +10,7 @@
         "dependencies": {
           "Dapper": "2.1.66",
           "DomainModel": "1.0.0",
+          "Infrastructure": "1.0.0",
           "Microsoft.Data.SqlClient": "6.0.2",
           "System.Configuration.ConfigurationManager": "9.0.7",
           "System.Data.SqlClient": "4.9.0"
@@ -477,6 +478,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Infrastructure/1.0.0": {
+        "runtime": {
+          "Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -725,6 +734,11 @@
       "hashPath": "system.security.cryptography.protecteddata.9.0.7.nupkg.sha512"
     },
     "DomainModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

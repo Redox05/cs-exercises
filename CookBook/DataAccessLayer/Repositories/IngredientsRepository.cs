@@ -1,4 +1,8 @@
-﻿using DomainModel.Models;
+﻿using Dapper;
+using DataAccessLayer.Contracts;
+using DomainModel.Models;
+using Infrastructure;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -6,9 +10,6 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Data.SqlClient;
-using Dapper;
-using DataAccessLayer.Contracts;
 
 namespace DataAccessLayer.Repositories
 {
@@ -38,11 +39,13 @@ namespace DataAccessLayer.Repositories
                 {
                     errorMessage = "An error happened in the database";
                 }
+                Logger.LogError(errorMessage); // Log the error for debugging purposes
             }
             catch (Exception ex) 
             {
                 string errorMessage = "An error happened while adding ingredient"; //Stores the message from the exception
                 //TODO: Display error message
+                Logger.LogError(errorMessage); // Log the error for debugging purposes
             }
         }
         public async Task<List<Ingredient>> GetIngredients(string? name = "")
