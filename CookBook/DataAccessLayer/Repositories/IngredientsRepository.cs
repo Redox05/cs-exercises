@@ -15,6 +15,7 @@ namespace DataAccessLayer.Repositories
 {
     public class IngredientsRepository : IIngredientsRepository
     {
+        public event Action<string> OnError;
         public async Task AddIngredient(Ingredient ingredient)
         {
             try
@@ -39,14 +40,22 @@ namespace DataAccessLayer.Repositories
                 {
                     errorMessage = "An error happened in the database";
                 }
-                Logger.LogError(errorMessage); // Log the error for debugging purposes
+                ErrorOccurred(errorMessage); // Notify subscribers about the error
             }
             catch (Exception ex) 
             {
                 string errorMessage = "An error happened while adding ingredient"; //Stores the message from the exception
                 //TODO: Display error message
-                Logger.LogError(errorMessage); // Log the error for debugging purposes
+                ErrorOccurred(errorMessage); // Notify subscribers about the error
             }
+        }
+        private void ErrorOccurred(string errorMessage)
+        {
+            if (OnError != null)
+            {
+                OnError.Invoke(errorMessage);
+            }
+            Logger.LogError(errorMessage);
         }
         public async Task<List<Ingredient>> GetIngredients(string? name = "")
         {

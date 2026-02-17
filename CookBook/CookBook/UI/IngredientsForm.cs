@@ -22,7 +22,14 @@ namespace CookBook.UI
         {
             InitializeComponent();
             _ingredientsRepository = ingredientsRepository;
+            _ingredientsRepository.OnError += OnErrorOcurred;
         }
+
+        private void OnErrorOcurred(string errorMessage)
+        {
+            MessageBox.Show(errorMessage);
+        }
+
         private async void AddToFridgeBtn_Click(object sender, EventArgs e)
         {
             if (!IsValid())
