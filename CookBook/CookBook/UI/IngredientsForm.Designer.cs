@@ -28,6 +28,9 @@
             SearchTxt = new TextBox();
             ClearAllFieldsBtn = new Button();
             EditIngredientBtn = new Button();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)WeightNum).BeginInit();
             ((System.ComponentModel.ISupportInitialize)KcalPer100gNum).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PricePer100gNum).BeginInit();
@@ -38,7 +41,7 @@
             // 
             label1.AutoSize = true;
             label1.Location = new Point(950, 106);
-            label1.Margin = new Padding(6, 0, 6, 0);
+            label1.Margin = new Padding(7, 0, 7, 0);
             label1.Name = "label1";
             label1.Size = new Size(91, 38);
             label1.TabIndex = 0;
@@ -47,8 +50,8 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(950, 178);
-            label2.Margin = new Padding(6, 0, 6, 0);
+            label2.Location = new Point(950, 179);
+            label2.Margin = new Padding(7, 0, 7, 0);
             label2.Name = "label2";
             label2.Size = new Size(75, 38);
             label2.TabIndex = 1;
@@ -58,7 +61,7 @@
             // 
             label3.AutoSize = true;
             label3.Location = new Point(950, 254);
-            label3.Margin = new Padding(6, 0, 6, 0);
+            label3.Margin = new Padding(7, 0, 7, 0);
             label3.Name = "label3";
             label3.Size = new Size(145, 38);
             label3.TabIndex = 2;
@@ -67,8 +70,8 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(950, 326);
-            label4.Margin = new Padding(6, 0, 6, 0);
+            label4.Location = new Point(950, 327);
+            label4.Margin = new Padding(7, 0, 7, 0);
             label4.Name = "label4";
             label4.Size = new Size(152, 38);
             label4.TabIndex = 3;
@@ -77,8 +80,8 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(950, 403);
-            label5.Margin = new Padding(6, 0, 6, 0);
+            label5.Location = new Point(950, 404);
+            label5.Margin = new Padding(7, 0, 7, 0);
             label5.Name = "label5";
             label5.Size = new Size(163, 38);
             label5.TabIndex = 4;
@@ -96,14 +99,14 @@
             // 
             // NameTxt
             // 
-            NameTxt.Location = new Point(1184, 106);
+            NameTxt.Location = new Point(1183, 106);
             NameTxt.Name = "NameTxt";
             NameTxt.Size = new Size(251, 43);
             NameTxt.TabIndex = 6;
             // 
             // TypeTxt
             // 
-            TypeTxt.Location = new Point(1184, 178);
+            TypeTxt.Location = new Point(1183, 179);
             TypeTxt.Name = "TypeTxt";
             TypeTxt.Size = new Size(251, 43);
             TypeTxt.TabIndex = 7;
@@ -111,46 +114,45 @@
             // WeightNum
             // 
             WeightNum.DecimalPlaces = 2;
-            WeightNum.Location = new Point(1184, 254);
+            WeightNum.Location = new Point(1183, 254);
             WeightNum.Maximum = new decimal(new int[] { 999999, 0, 0, 0 });
             WeightNum.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
             WeightNum.Name = "WeightNum";
-            WeightNum.Size = new Size(251, 43);
+            WeightNum.Size = new Size(252, 43);
             WeightNum.TabIndex = 8;
             WeightNum.Value = new decimal(new int[] { 1, 0, 0, 0 });
             // 
             // KcalPer100gNum
             // 
             KcalPer100gNum.DecimalPlaces = 2;
-            KcalPer100gNum.Location = new Point(1184, 326);
+            KcalPer100gNum.Location = new Point(1183, 327);
             KcalPer100gNum.Maximum = new decimal(new int[] { 900, 0, 0, 0 });
             KcalPer100gNum.Name = "KcalPer100gNum";
-            KcalPer100gNum.Size = new Size(251, 43);
+            KcalPer100gNum.Size = new Size(252, 43);
             KcalPer100gNum.TabIndex = 9;
             // 
             // PricePer100gNum
             // 
             PricePer100gNum.DecimalPlaces = 2;
-            PricePer100gNum.Location = new Point(1184, 403);
+            PricePer100gNum.Location = new Point(1183, 404);
             PricePer100gNum.Maximum = new decimal(new int[] { 9999999, 0, 0, 0 });
             PricePer100gNum.Name = "PricePer100gNum";
-            PricePer100gNum.Size = new Size(251, 43);
+            PricePer100gNum.Size = new Size(252, 43);
             PricePer100gNum.TabIndex = 10;
             // 
             // IngredientsGrid
             // 
             IngredientsGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            IngredientsGrid.Location = new Point(12, 106);
+            IngredientsGrid.Location = new Point(12, 138);
             IngredientsGrid.Name = "IngredientsGrid";
             IngredientsGrid.RowHeadersWidth = 51;
-            IngredientsGrid.Size = new Size(929, 454);
+            IngredientsGrid.Size = new Size(928, 454);
             IngredientsGrid.TabIndex = 11;
             IngredientsGrid.CellClick += IngredientsGrid_CellClick;
-            
             // 
             // SearchTxt
             // 
-            SearchTxt.Location = new Point(12, 28);
+            SearchTxt.Location = new Point(12, 27);
             SearchTxt.Name = "SearchTxt";
             SearchTxt.PlaceholderText = "Type ingredient name...";
             SearchTxt.Size = new Size(929, 43);
@@ -161,7 +163,7 @@
             // 
             ClearAllFieldsBtn.Location = new Point(950, 547);
             ClearAllFieldsBtn.Name = "ClearAllFieldsBtn";
-            ClearAllFieldsBtn.Size = new Size(485, 46);
+            ClearAllFieldsBtn.Size = new Size(485, 47);
             ClearAllFieldsBtn.TabIndex = 14;
             ClearAllFieldsBtn.Text = "Clear Fields / Cancel Edit";
             ClearAllFieldsBtn.UseVisualStyleBackColor = true;
@@ -177,11 +179,47 @@
             EditIngredientBtn.UseVisualStyleBackColor = true;
             EditIngredientBtn.Click += EditIngredientBtn_Click;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(64, 86);
+            label6.Margin = new Padding(7, 0, 7, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(112, 23);
+            label6.TabIndex = 16;
+            label6.Text = "Sort by name";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(435, 86);
+            label7.Margin = new Padding(7, 0, 7, 0);
+            label7.Name = "label7";
+            label7.Size = new Size(100, 23);
+            label7.TabIndex = 17;
+            label7.Text = "Sort by Kcal";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label8.Location = new Point(561, 86);
+            label8.Margin = new Padding(7, 0, 7, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(106, 23);
+            label8.TabIndex = 18;
+            label8.Text = "Sort by price";
+            // 
             // IngredientsForm
             // 
             AutoScaleDimensions = new SizeF(15F, 37F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1457, 605);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
             Controls.Add(EditIngredientBtn);
             Controls.Add(ClearAllFieldsBtn);
             Controls.Add(SearchTxt);
@@ -198,7 +236,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Margin = new Padding(6);
+            Margin = new Padding(7, 6, 7, 6);
             Name = "IngredientsForm";
             Text = "My Fridge";
             Load += IngredientsForm_Load;
@@ -227,5 +265,8 @@
         private TextBox SearchTxt;
         private Button ClearAllFieldsBtn;
         private Button EditIngredientBtn;
+        private Label label6;
+        private Label label7;
+        private Label label8;
     }
 }

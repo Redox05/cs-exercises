@@ -59,28 +59,52 @@ namespace DataAccessLayer.Repositories
         }
         public async Task<List<Ingredient>> GetIngredients(string? name = "")
         {
-            string query = "select * from Ingredients";
-            if (!string.IsNullOrEmpty(name))
-                query += $" where Name like '{name}%'";
-
-            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+            try
             {
-                return (await connection.QueryAsync<Ingredient>(query)).ToList();
+                string query = "select * from Ingredients";
+                if (!string.IsNullOrEmpty(name))
+                    query += $" where Name like '{name}%'";
+
+                using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+                {
+                    return (await connection.QueryAsync<Ingredient>(query)).ToList();
+                }
             }
+            catch (Exception ex)
+            {
+                string errorMessage = "Please enter a valid ingredient name";
+                             
+                ErrorOccurred(errorMessage);
+                throw;
+            }
+            
         }
 
         public async Task DeleteIngredient(Ingredient ingredient)
         {
-            string query = @$"delete from Ingredients where Id = {ingredient.Id}";
-
-            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+            try
             {
-                await connection.ExecuteAsync(query);
+                string query = @$"delete from Ingredients where Id = {ingredient.Id}";
+
+                using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+                {
+                    await connection.ExecuteAsync(query);
+                }
+
             }
+            catch (Exception ex)
+            {
+                string errorMessage = "An error happened while deleting ingredient";
+                ErrorOccurred(errorMessage);
+            }
+
+            
         }
         public async Task EditIngredient(Ingredient ingredient)
         {
-            string query = @"update Ingredients
+            try
+            {
+                string query = @"update Ingredients
                               set
                               Name = @Name,
                               Weight = @Weight,
@@ -89,10 +113,19 @@ namespace DataAccessLayer.Repositories
                               Type = @Type
                               where Id = @Id";
 
-            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
-            {
-                await connection.ExecuteAsync(query, ingredient);
+                using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+                {
+                    await connection.ExecuteAsync(query, ingredient);
+                }
+
             }
+            catch (Exception ex)
+            {
+                string errorMEssage = "An error happened while editing ingredient";
+                ErrorOccurred(errorMEssage);
+
+            }
+            
         }
 
     }

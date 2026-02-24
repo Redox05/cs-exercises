@@ -22,10 +22,10 @@ namespace CookBook.UI
         {
             InitializeComponent();
             _ingredientsRepository = ingredientsRepository;
-            _ingredientsRepository.OnError += OnErrorOcurred;
+            _ingredientsRepository.OnError += OnErrorOccurred;
         }
 
-        private void OnErrorOcurred(string errorMessage)
+        private void OnErrorOccurred(string errorMessage)
         {
             MessageBox.Show(errorMessage);
         }
