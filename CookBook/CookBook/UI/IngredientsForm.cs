@@ -119,7 +119,7 @@ namespace CookBook.UI
         }
         private async void SearchTxt_TextChanged(object sender, EventArgs e)
         {
-            int lengthBeforePause = SearchTxt.Text.Length;
+              int lengthBeforePause = SearchTxt.Text.Length;
 
             await Task.Delay(500);
 

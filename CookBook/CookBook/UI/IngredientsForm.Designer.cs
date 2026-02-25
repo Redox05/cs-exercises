@@ -31,6 +31,12 @@
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
+            SortByNameAscBtn = new Button();
+            SortByNameDescBtn = new Button();
+            SortByKcalAscBtn = new Button();
+            SortByKcalDescBtn = new Button();
+            SortByPriceDescBtn = new Button();
+            SortByPriceAscBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)WeightNum).BeginInit();
             ((System.ComponentModel.ISupportInitialize)KcalPer100gNum).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PricePer100gNum).BeginInit();
@@ -212,11 +218,77 @@
             label8.TabIndex = 18;
             label8.Text = "Sort by price";
             // 
+            // SortByNameAscBtn
+            // 
+            SortByNameAscBtn.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SortByNameAscBtn.Location = new Point(64, 106);
+            SortByNameAscBtn.Name = "SortByNameAscBtn";
+            SortByNameAscBtn.Size = new Size(47, 29);
+            SortByNameAscBtn.TabIndex = 19;
+            SortByNameAscBtn.Text = "Asc";
+            SortByNameAscBtn.UseVisualStyleBackColor = true;
+            // 
+            // SortByNameDescBtn
+            // 
+            SortByNameDescBtn.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SortByNameDescBtn.Location = new Point(128, 106);
+            SortByNameDescBtn.Name = "SortByNameDescBtn";
+            SortByNameDescBtn.Size = new Size(48, 29);
+            SortByNameDescBtn.TabIndex = 20;
+            SortByNameDescBtn.Text = "Desc";
+            SortByNameDescBtn.UseVisualStyleBackColor = true;
+            // 
+            // SortByKcalAscBtn
+            // 
+            SortByKcalAscBtn.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SortByKcalAscBtn.Location = new Point(435, 106);
+            SortByKcalAscBtn.Name = "SortByKcalAscBtn";
+            SortByKcalAscBtn.Size = new Size(47, 29);
+            SortByKcalAscBtn.TabIndex = 21;
+            SortByKcalAscBtn.Text = "Asc";
+            SortByKcalAscBtn.UseVisualStyleBackColor = true;
+            // 
+            // SortByKcalDescBtn
+            // 
+            SortByKcalDescBtn.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SortByKcalDescBtn.Location = new Point(487, 106);
+            SortByKcalDescBtn.Name = "SortByKcalDescBtn";
+            SortByKcalDescBtn.Size = new Size(48, 29);
+            SortByKcalDescBtn.TabIndex = 22;
+            SortByKcalDescBtn.Text = "Desc";
+            SortByKcalDescBtn.UseVisualStyleBackColor = true;
+            // 
+            // SortByPriceDescBtn
+            // 
+            SortByPriceDescBtn.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SortByPriceDescBtn.Location = new Point(613, 106);
+            SortByPriceDescBtn.Name = "SortByPriceDescBtn";
+            SortByPriceDescBtn.Size = new Size(48, 29);
+            SortByPriceDescBtn.TabIndex = 24;
+            SortByPriceDescBtn.Text = "Desc";
+            SortByPriceDescBtn.UseVisualStyleBackColor = true;
+            // 
+            // SortByPriceAscBtn
+            // 
+            SortByPriceAscBtn.Font = new Font("Segoe UI", 7.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            SortByPriceAscBtn.Location = new Point(561, 106);
+            SortByPriceAscBtn.Name = "SortByPriceAscBtn";
+            SortByPriceAscBtn.Size = new Size(47, 29);
+            SortByPriceAscBtn.TabIndex = 23;
+            SortByPriceAscBtn.Text = "Asc";
+            SortByPriceAscBtn.UseVisualStyleBackColor = true;
+            // 
             // IngredientsForm
             // 
             AutoScaleDimensions = new SizeF(15F, 37F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1457, 605);
+            Controls.Add(SortByPriceDescBtn);
+            Controls.Add(SortByPriceAscBtn);
+            Controls.Add(SortByKcalDescBtn);
+            Controls.Add(SortByKcalAscBtn);
+            Controls.Add(SortByNameDescBtn);
+            Controls.Add(SortByNameAscBtn);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -268,5 +340,11 @@
         private Label label6;
         private Label label7;
         private Label label8;
+        private Button SortByNameAscBtn;
+        private Button SortByNameDescBtn;
+        private Button SortByKcalAscBtn;
+        private Button SortByKcalDescBtn;
+        private Button SortByPriceDescBtn;
+        private Button SortByPriceAscBtn;
     }
 }
