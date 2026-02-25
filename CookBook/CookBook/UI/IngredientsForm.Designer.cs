@@ -227,6 +227,7 @@
             SortByNameAscBtn.TabIndex = 19;
             SortByNameAscBtn.Text = "Asc";
             SortByNameAscBtn.UseVisualStyleBackColor = true;
+            SortByNameAscBtn.Click += SortByNameAscBtn_Click;
             // 
             // SortByNameDescBtn
             // 
@@ -237,6 +238,7 @@
             SortByNameDescBtn.TabIndex = 20;
             SortByNameDescBtn.Text = "Desc";
             SortByNameDescBtn.UseVisualStyleBackColor = true;
+            SortByNameDescBtn.Click += SortByNameDescBtn_Click;
             // 
             // SortByKcalAscBtn
             // 
@@ -247,6 +249,7 @@
             SortByKcalAscBtn.TabIndex = 21;
             SortByKcalAscBtn.Text = "Asc";
             SortByKcalAscBtn.UseVisualStyleBackColor = true;
+            SortByKcalAscBtn.Click += SortByKcalAscBtn_Click;
             // 
             // SortByKcalDescBtn
             // 
@@ -257,6 +260,7 @@
             SortByKcalDescBtn.TabIndex = 22;
             SortByKcalDescBtn.Text = "Desc";
             SortByKcalDescBtn.UseVisualStyleBackColor = true;
+            SortByKcalDescBtn.Click += SortByKcalDescBtn_Click;
             // 
             // SortByPriceDescBtn
             // 
@@ -267,6 +271,7 @@
             SortByPriceDescBtn.TabIndex = 24;
             SortByPriceDescBtn.Text = "Desc";
             SortByPriceDescBtn.UseVisualStyleBackColor = true;
+            SortByPriceDescBtn.Click += SortByPriceDescBtn_Click;
             // 
             // SortByPriceAscBtn
             // 
@@ -277,6 +282,7 @@
             SortByPriceAscBtn.TabIndex = 23;
             SortByPriceAscBtn.Text = "Asc";
             SortByPriceAscBtn.UseVisualStyleBackColor = true;
+            SortByPriceAscBtn.Click += SortByPriceAscBtn_Click;
             // 
             // IngredientsForm
             // 

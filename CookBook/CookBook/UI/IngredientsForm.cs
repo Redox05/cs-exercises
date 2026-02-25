@@ -119,7 +119,7 @@ namespace CookBook.UI
         }
         private async void SearchTxt_TextChanged(object sender, EventArgs e)
         {
-              int lengthBeforePause = SearchTxt.Text.Length;
+            int lengthBeforePause = SearchTxt.Text.Length;
 
             await Task.Delay(500);
 
@@ -222,7 +222,35 @@ namespace CookBook.UI
             _ingredientToEditId = 0;
         }
 
-        
+        private async void SortByNameAscBtn_Click(object sender, EventArgs e)
+        {
+            IngredientsGrid.DataSource = await _ingredientsRepository.SortIngredients("name", "asc");
+        }
+
+        private async void SortByNameDescBtn_Click(object sender, EventArgs e)
+        {
+            IngredientsGrid.DataSource = await _ingredientsRepository.SortIngredients("name", "desc");
+        }
+
+        private async void SortByKcalAscBtn_Click(object sender, EventArgs e)
+        {
+            IngredientsGrid.DataSource = await _ingredientsRepository.SortIngredients("KcalPer100g", "asc");
+        }
+
+        private async void SortByKcalDescBtn_Click(object sender, EventArgs e)
+        {
+            IngredientsGrid.DataSource = await _ingredientsRepository.SortIngredients("KcalPer100g", "desc");
+        }
+
+        private async void SortByPriceAscBtn_Click(object sender, EventArgs e)
+        {
+            IngredientsGrid.DataSource = await _ingredientsRepository.SortIngredients("PricePer100g", "asc");
+        }
+
+        private async void SortByPriceDescBtn_Click(object sender, EventArgs e)
+        {
+            IngredientsGrid.DataSource = await _ingredientsRepository.SortIngredients("PricePer100g", "desc");
+        }
     }
 }
 

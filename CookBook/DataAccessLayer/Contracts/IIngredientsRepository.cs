@@ -15,5 +15,6 @@ namespace DataAccessLayer.Contracts
         public Task<List<Ingredient>> GetIngredients(string? name = "");
         public Task DeleteIngredient(Ingredient ingredient);
         public Task EditIngredient(Ingredient ingredient);
+        public Task<List<Ingredient>> SortIngredients(string sortBy, string order);
     }
 }

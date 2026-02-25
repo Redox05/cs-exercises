@@ -57,6 +57,17 @@ namespace DataAccessLayer.Repositories
             }
             Logger.LogError(errorMessage);
         }
+
+        public async Task<List<Ingredient>> SortIngredients(string sortBy, string order)
+        {
+            string query = $"select * from Ingredients order by {sortBy} {order}";
+            using (IDbConnection connection = new SqlConnection(ConnectionHelper.ConnectionString))
+            {
+                return (await connection.QueryAsync<Ingredient>(query)).ToList();
+            }
+
+        }
+        
         public async Task<List<Ingredient>> GetIngredients(string? name = "")
         {
             try
