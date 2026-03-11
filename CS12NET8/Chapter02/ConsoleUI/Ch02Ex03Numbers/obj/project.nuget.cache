@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YKP9u/kUaww=",
+  "dgSpecHash": "D02hSEyfmjI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\CS12NET8\\Chapter02\\ConsoleUI\\Ch02Ex03Numbers\\Ch02Ex03Numbers.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter02\\ConsoleUI\\Ch02Ex03Numbers\\Ch02Ex03Numbers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.24\\microsoft.netcore.app.host.win-x64.8.0.24.nupkg.sha512"
+  ],
   "logs": []
 }
