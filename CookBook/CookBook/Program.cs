@@ -28,8 +28,10 @@ namespace CookBook
             ServiceCollection services = new ServiceCollection();
 
                  services.AddTransient<IIngredientsRepository>(_ => new IngredientsRepository());
+                 services.AddTransient<IRecipeTypesRepository>(_ => new RecipeTypesRepository());
 
             services.AddTransient<IngredientsForm>();
+            services.AddTransient<RecipesForm>();
 
             return services;
 
