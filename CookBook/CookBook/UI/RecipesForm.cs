@@ -19,5 +19,15 @@ namespace CookBook.UI
             InitializeComponent();
             _recipeTypesRepository = recipeTypesRepository;
         }
+        private async void RefreshRecipeTypes()
+        {
+            RecipeTypesCbx.DataSource = await _recipeTypesRepository.GetRecipeTypes();
+            RecipeTypesCbx.DisplayMember = "Name";
+        }
+
+        private void RecipesForm_Load(object sender, EventArgs e)
+        {
+            RefreshRecipeTypes();
+        }
     }
 }

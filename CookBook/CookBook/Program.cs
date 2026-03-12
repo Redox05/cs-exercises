@@ -20,7 +20,7 @@ namespace CookBook
             ServiceCollection services = ConfigureServices();
             ServiceProvider serviceProvider = services.BuildServiceProvider();
 
-            var startForm = serviceProvider.GetRequiredService<IngredientsForm>();
+            var startForm = serviceProvider.GetRequiredService<RecipesForm>();
             Application.Run(startForm);
         }
         static ServiceCollection ConfigureServices()

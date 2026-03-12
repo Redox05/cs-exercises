@@ -213,6 +213,7 @@
             Margin = new Padding(6);
             Name = "RecipesForm";
             Text = "RecipesForm";
+            Load += RecipesForm_Load;
             ((System.ComponentModel.ISupportInitialize)RecipePictureBox).EndInit();
             ((System.ComponentModel.ISupportInitialize)RecipesGrid).EndInit();
             ResumeLayout(false);
