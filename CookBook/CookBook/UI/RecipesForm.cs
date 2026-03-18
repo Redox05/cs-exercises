@@ -1,4 +1,5 @@
 ﻿using DataAccessLayer.Contracts;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,6 +29,12 @@ namespace CookBook.UI
         private void RecipesForm_Load(object sender, EventArgs e)
         {
             RefreshRecipeTypes();
+        }
+
+        private void AddRecipeTypeBtn_Click(object sender, EventArgs e)
+        {
+            RecipeTypesForm form = serviceProvider.GetRequiredService<RecipesTypesForm>();
+            Application.Run(startForm);
         }
     }
 }

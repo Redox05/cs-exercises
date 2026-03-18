@@ -123,6 +123,7 @@
             AddRecipeTypeBtn.TabIndex = 7;
             AddRecipeTypeBtn.Text = "Add";
             AddRecipeTypeBtn.UseVisualStyleBackColor = true;
+            AddRecipeTypeBtn.Click += AddRecipeTypeBtn_Click;
             // 
             // DescriptionTxt
             // 
