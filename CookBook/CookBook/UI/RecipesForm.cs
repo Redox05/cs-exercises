@@ -15,10 +15,12 @@ namespace CookBook.UI
     public partial class RecipesForm : Form
     {
         private readonly IRecipeTypesRepository _recipeTypesRepository;
-        public RecipesForm(IRecipeTypesRepository recipeTypesRepository)
+        private readonly IServiceProvider _serviceProvider;
+        public RecipesForm(IRecipeTypesRepository recipeTypesRepository, IServiceProvider serviceProvider)
         {
             InitializeComponent();
             _recipeTypesRepository = recipeTypesRepository;
+            _serviceProvider = serviceProvider;
         }
         private async void RefreshRecipeTypes()
         {
@@ -33,8 +35,8 @@ namespace CookBook.UI
 
         private void AddRecipeTypeBtn_Click(object sender, EventArgs e)
         {
-            RecipeTypesForm form = serviceProvider.GetRequiredService<RecipesTypesForm>();
-            Application.Run(startForm);
+            RecipeTypesForm form = _serviceProvider.GetRequiredService<RecipeTypesForm>();
+            form.ShowDialog();
         }
     }
 }

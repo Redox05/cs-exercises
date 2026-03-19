@@ -162,3 +162,4 @@ C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-wind
 C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\bin\Debug\net8.0-windows7.0\Infrastructure.pdb
 C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.Properties.Resources.resources
 C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.UI.RecipesForm.resources
+C:\Users\RUBEN\source\repos\cs-exercises\CookBook\CookBook\obj\Debug\net8.0-windows7.0\CookBook.UI.RecipeTypesForm.resources
