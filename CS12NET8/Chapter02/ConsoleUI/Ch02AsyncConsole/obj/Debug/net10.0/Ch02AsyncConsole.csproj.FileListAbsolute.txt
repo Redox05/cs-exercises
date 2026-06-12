@@ -1,0 +1,15 @@
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\bin\Debug\net10.0\Ch02AsyncConsole.exe
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\bin\Debug\net10.0\Ch02AsyncConsole.deps.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\bin\Debug\net10.0\Ch02AsyncConsole.runtimeconfig.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\bin\Debug\net10.0\Ch02AsyncConsole.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\bin\Debug\net10.0\Ch02AsyncConsole.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\Ch02AsyncConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\Ch02AsyncConsole.AssemblyInfoInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\Ch02AsyncConsole.AssemblyInfo.cs
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\Ch02AsyncConsole.csproj.CoreCompileInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\Ch02AsyncConsole.sourcelink.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\Ch02AsyncConsole.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\refint\Ch02AsyncConsole.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\Ch02AsyncConsole.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\Ch02AsyncConsole.genruntimeconfig.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter02\ConsoleUI\Ch02AsyncConsole\obj\Debug\net10.0\ref\Ch02AsyncConsole.dll

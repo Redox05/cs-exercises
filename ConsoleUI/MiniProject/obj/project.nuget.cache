@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RQvmRANx1SI=",
+  "dgSpecHash": "yuchnGz9mGc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RKO\\Documents\\GitStuff\\cs-exercises\\ConsoleUI\\MiniProject\\MiniProject.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\ConsoleUI\\MiniProject\\MiniProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512",
+    "C:\\Users\\RUBEN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.28\\microsoft.netcore.app.host.win-x64.8.0.28.nupkg.sha512"
+  ],
   "logs": []
 }
