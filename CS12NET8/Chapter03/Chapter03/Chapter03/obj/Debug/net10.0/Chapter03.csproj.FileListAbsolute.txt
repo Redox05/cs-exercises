@@ -1,0 +1,15 @@
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\bin\Debug\net10.0\Chapter03.exe
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\bin\Debug\net10.0\Chapter03.deps.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\bin\Debug\net10.0\Chapter03.runtimeconfig.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\bin\Debug\net10.0\Chapter03.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\bin\Debug\net10.0\Chapter03.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\Chapter03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\Chapter03.AssemblyInfoInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\Chapter03.AssemblyInfo.cs
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\Chapter03.csproj.CoreCompileInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\Chapter03.sourcelink.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\Chapter03.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\refint\Chapter03.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\Chapter03.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\Chapter03.genruntimeconfig.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Chapter03\obj\Debug\net10.0\ref\Chapter03.dll
