@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Chapter03/Chapter03.csproj" />
+  <Project Path="Exercise_FizzBuzz/Exercise_FizzBuzz.csproj" />
 </Solution>

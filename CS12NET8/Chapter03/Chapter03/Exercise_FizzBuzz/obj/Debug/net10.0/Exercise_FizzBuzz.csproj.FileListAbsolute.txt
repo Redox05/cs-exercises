@@ -1,0 +1,15 @@
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\bin\Debug\net10.0\Exercise_FizzBuzz.exe
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\bin\Debug\net10.0\Exercise_FizzBuzz.deps.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\bin\Debug\net10.0\Exercise_FizzBuzz.runtimeconfig.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\bin\Debug\net10.0\Exercise_FizzBuzz.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\bin\Debug\net10.0\Exercise_FizzBuzz.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\Exercise_FizzBuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\Exercise_FizzBuzz.AssemblyInfoInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\Exercise_FizzBuzz.AssemblyInfo.cs
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\Exercise_FizzBuzz.csproj.CoreCompileInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\Exercise_FizzBuzz.sourcelink.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\Exercise_FizzBuzz.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\refint\Exercise_FizzBuzz.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\Exercise_FizzBuzz.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\Exercise_FizzBuzz.genruntimeconfig.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_FizzBuzz\obj\Debug\net10.0\ref\Exercise_FizzBuzz.dll

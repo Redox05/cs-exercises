@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter03\\Chapter03\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C03C2A42-A3AD-4EAC-8FE3-72C48047BD2E}|Exercise_FizzBuzz\\Exercise_FizzBuzz.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cs12net8\\chapter03\\chapter03\\exercise_fizzbuzz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C03C2A42-A3AD-4EAC-8FE3-72C48047BD2E}|Exercise_FizzBuzz\\Exercise_FizzBuzz.csproj|solutionrelative:exercise_fizzbuzz\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4CDE1D54-D450-4631-82ED-668FE8ACE889}|Chapter03\\Chapter03.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cs12net8\\chapter03\\chapter03\\chapter03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4CDE1D54-D450-4631-82ED-668FE8ACE889}|Chapter03\\Chapter03.csproj|solutionrelative:chapter03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -24,11 +28,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter03\\Chapter03\\Exercise_FizzBuzz\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise_FizzBuzz\\Program.cs",
+              "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter03\\Chapter03\\Exercise_FizzBuzz\\Program.cs",
+              "RelativeToolTip": "Exercise_FizzBuzz\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T03:31:55.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter03\\Chapter03\\Chapter03\\Program.cs",
               "RelativeDocumentMoniker": "Chapter03\\Program.cs",
               "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter03\\Chapter03\\Chapter03\\Program.cs",
               "RelativeToolTip": "Chapter03\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-17T03:22:33.365Z",
               "EditorCaption": ""
