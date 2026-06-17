@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ch02AsyncConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54d25aad46c2c2fa5a4d72d27056172c7fb27995")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6c005a64ba85d80880dc6f7ac613ff45f06033c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ch02AsyncConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ch02AsyncConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

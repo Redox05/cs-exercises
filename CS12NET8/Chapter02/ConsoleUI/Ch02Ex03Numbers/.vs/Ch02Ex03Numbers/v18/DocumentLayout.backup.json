@@ -28,9 +28,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter02\\ConsoleUI\\Ch02AsyncConsole\\Program.cs",
               "RelativeDocumentMoniker": "..\\Ch02AsyncConsole\\Program.cs",
-              "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter02\\ConsoleUI\\Ch02AsyncConsole\\Program.cs*",
-              "RelativeToolTip": "..\\Ch02AsyncConsole\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABSAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter02\\ConsoleUI\\Ch02AsyncConsole\\Program.cs",
+              "RelativeToolTip": "..\\Ch02AsyncConsole\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-12T01:23:20.857Z",
               "EditorCaption": ""
@@ -38,7 +38,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Ch02AsyncConsole",
+              "Title": "Ch02AsyncConsole.csproj",
               "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter02\\ConsoleUI\\Ch02AsyncConsole\\Ch02AsyncConsole.csproj",
               "RelativeDocumentMoniker": "..\\Ch02AsyncConsole\\Ch02AsyncConsole.csproj",
               "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter02\\ConsoleUI\\Ch02AsyncConsole\\Ch02AsyncConsole.csproj",
