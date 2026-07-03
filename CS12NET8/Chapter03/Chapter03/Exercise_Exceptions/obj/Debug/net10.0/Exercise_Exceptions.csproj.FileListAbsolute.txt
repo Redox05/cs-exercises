@@ -1,0 +1,15 @@
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\bin\Debug\net10.0\Exercise_Exceptions.exe
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\bin\Debug\net10.0\Exercise_Exceptions.deps.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\bin\Debug\net10.0\Exercise_Exceptions.runtimeconfig.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\bin\Debug\net10.0\Exercise_Exceptions.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\bin\Debug\net10.0\Exercise_Exceptions.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\Exercise_Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\Exercise_Exceptions.AssemblyInfoInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\Exercise_Exceptions.AssemblyInfo.cs
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\Exercise_Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\Exercise_Exceptions.sourcelink.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\Exercise_Exceptions.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\refint\Exercise_Exceptions.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\Exercise_Exceptions.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\Exercise_Exceptions.genruntimeconfig.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Exercise_Exceptions\obj\Debug\net10.0\ref\Exercise_Exceptions.dll

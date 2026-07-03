@@ -1,6 +1,6 @@
-﻿int counter = 100;
+﻿double counter = 100;
 
-for (int i = 1; i<=counter; i++)
+for (int i = 1; i <= counter; i++)
 {
     if (i % 3 == 0 && i % 5 == 0)
     {
@@ -10,7 +10,7 @@ for (int i = 1; i<=counter; i++)
     {
         Console.Write("Fizz ");
     }
-    else if(i % 5 == 0 )
+    else if (i % 5 == 0)
     {
         Console.Write("Buzz ");
     }
@@ -19,3 +19,5 @@ for (int i = 1; i<=counter; i++)
         Console.Write(i + " ");
     }
 }
+
+

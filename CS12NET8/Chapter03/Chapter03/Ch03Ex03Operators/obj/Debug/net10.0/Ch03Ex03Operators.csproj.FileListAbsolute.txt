@@ -1,0 +1,15 @@
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\bin\Debug\net10.0\Ch03Ex03Operators.exe
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\bin\Debug\net10.0\Ch03Ex03Operators.deps.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\bin\Debug\net10.0\Ch03Ex03Operators.runtimeconfig.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\bin\Debug\net10.0\Ch03Ex03Operators.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\bin\Debug\net10.0\Ch03Ex03Operators.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\Ch03Ex03Operators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\Ch03Ex03Operators.AssemblyInfoInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\Ch03Ex03Operators.AssemblyInfo.cs
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\Ch03Ex03Operators.csproj.CoreCompileInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\Ch03Ex03Operators.sourcelink.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\Ch03Ex03Operators.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\refint\Ch03Ex03Operators.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\Ch03Ex03Operators.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\Ch03Ex03Operators.genruntimeconfig.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter03\Chapter03\Ch03Ex03Operators\obj\Debug\net10.0\ref\Ch03Ex03Operators.dll
