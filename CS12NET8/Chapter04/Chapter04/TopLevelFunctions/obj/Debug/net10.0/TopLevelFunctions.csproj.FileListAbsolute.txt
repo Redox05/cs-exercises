@@ -1,0 +1,15 @@
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\bin\Debug\net10.0\TopLevelFunctions.exe
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\bin\Debug\net10.0\TopLevelFunctions.deps.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\bin\Debug\net10.0\TopLevelFunctions.runtimeconfig.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\bin\Debug\net10.0\TopLevelFunctions.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\bin\Debug\net10.0\TopLevelFunctions.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\TopLevelFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\TopLevelFunctions.AssemblyInfoInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\TopLevelFunctions.AssemblyInfo.cs
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\TopLevelFunctions.csproj.CoreCompileInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\TopLevelFunctions.sourcelink.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\TopLevelFunctions.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\refint\TopLevelFunctions.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\TopLevelFunctions.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\TopLevelFunctions.genruntimeconfig.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\TopLevelFunctions\obj\Debug\net10.0\ref\TopLevelFunctions.dll

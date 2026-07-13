@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2442753-4DF7-B72E-1FBA-6142BBA2C857}|TopLevelFunctions\\TopLevelFunctions.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cs12net8\\chapter04\\chapter04\\toplevelfunctions\\cprogram.functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2442753-4DF7-B72E-1FBA-6142BBA2C857}|TopLevelFunctions\\TopLevelFunctions.csproj|solutionrelative:toplevelfunctions\\cprogram.functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2442753-4DF7-B72E-1FBA-6142BBA2C857}|TopLevelFunctions\\TopLevelFunctions.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cs12net8\\chapter04\\chapter04\\toplevelfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2442753-4DF7-B72E-1FBA-6142BBA2C857}|TopLevelFunctions\\TopLevelFunctions.csproj|solutionrelative:toplevelfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CProgram.Functions.cs",
+              "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\TopLevelFunctions\\CProgram.Functions.cs",
+              "RelativeDocumentMoniker": "TopLevelFunctions\\CProgram.Functions.cs",
+              "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\TopLevelFunctions\\CProgram.Functions.cs",
+              "RelativeToolTip": "TopLevelFunctions\\CProgram.Functions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T23:08:02.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\TopLevelFunctions\\Program.cs",
+              "RelativeDocumentMoniker": "TopLevelFunctions\\Program.cs",
+              "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\TopLevelFunctions\\Program.cs",
+              "RelativeToolTip": "TopLevelFunctions\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T01:48:27.452Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
