@@ -1,0 +1,15 @@
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\WritingFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\WritingFunctions.AssemblyInfoInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\WritingFunctions.AssemblyInfo.cs
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\WritingFunctions.csproj.CoreCompileInputs.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\WritingFunctions.sourcelink.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\bin\Debug\net10.0\WritingFunctions.exe
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\bin\Debug\net10.0\WritingFunctions.deps.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\bin\Debug\net10.0\WritingFunctions.runtimeconfig.json
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\bin\Debug\net10.0\WritingFunctions.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\bin\Debug\net10.0\WritingFunctions.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\WritingFunctions.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\refint\WritingFunctions.dll
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\WritingFunctions.pdb
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\WritingFunctions.genruntimeconfig.cache
+C:\Users\RUBEN\source\repos\cs-exercises\CS12NET8\Chapter04\Chapter04\WritingFunctions\obj\Debug\net10.0\ref\WritingFunctions.dll
