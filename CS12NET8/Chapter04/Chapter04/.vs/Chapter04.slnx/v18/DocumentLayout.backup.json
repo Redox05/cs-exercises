@@ -9,14 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F91C71A-C61F-4B30-8878-C1AAEB528331}|WritingFunctions\\WritingFunctions.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cs12net8\\chapter04\\chapter04\\writingfunctions\\program.functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F91C71A-C61F-4B30-8878-C1AAEB528331}|WritingFunctions\\WritingFunctions.csproj|solutionrelative:writingfunctions\\program.functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2442753-4DF7-B72E-1FBA-6142BBA2C857}|TopLevelFunctions\\TopLevelFunctions.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cs12net8\\chapter04\\chapter04\\toplevelfunctions\\cprogram.functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2442753-4DF7-B72E-1FBA-6142BBA2C857}|TopLevelFunctions\\TopLevelFunctions.csproj|solutionrelative:toplevelfunctions\\cprogram.functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2442753-4DF7-B72E-1FBA-6142BBA2C857}|TopLevelFunctions\\TopLevelFunctions.csproj|c:\\users\\ruben\\source\\repos\\cs-exercises\\cs12net8\\chapter04\\chapter04\\toplevelfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2442753-4DF7-B72E-1FBA-6142BBA2C857}|TopLevelFunctions\\TopLevelFunctions.csproj|solutionrelative:toplevelfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,7 +32,7 @@
               "RelativeDocumentMoniker": "WritingFunctions\\Program.Functions.cs",
               "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\WritingFunctions\\Program.Functions.cs",
               "RelativeToolTip": "WritingFunctions\\Program.Functions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwCIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-13T02:30:38.137Z",
               "EditorCaption": ""
@@ -53,35 +45,9 @@
               "RelativeDocumentMoniker": "WritingFunctions\\Program.cs",
               "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\WritingFunctions\\Program.cs*",
               "RelativeToolTip": "WritingFunctions\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-13T02:28:38.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CProgram.Functions.cs",
-              "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\TopLevelFunctions\\CProgram.Functions.cs",
-              "RelativeDocumentMoniker": "TopLevelFunctions\\CProgram.Functions.cs",
-              "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\TopLevelFunctions\\CProgram.Functions.cs",
-              "RelativeToolTip": "TopLevelFunctions\\CProgram.Functions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-12T23:08:02.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\TopLevelFunctions\\Program.cs",
-              "RelativeDocumentMoniker": "TopLevelFunctions\\Program.cs",
-              "ToolTip": "C:\\Users\\RUBEN\\source\\repos\\cs-exercises\\CS12NET8\\Chapter04\\Chapter04\\TopLevelFunctions\\Program.cs",
-              "RelativeToolTip": "TopLevelFunctions\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T01:48:27.452Z",
               "EditorCaption": ""
             }
           ]
